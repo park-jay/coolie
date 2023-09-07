@@ -1,0 +1,179 @@
+\begin{thebibliography}{35}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Bamman et~al.(2014)Bamman, Underwood, and Smith}]{bamman2014bayesian}
+David Bamman, Ted Underwood, and Noah~A Smith. 2014.
+\newblock A bayesian mixed effects model of literary character.
+\newblock In \emph{Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 370--379.
+
+\bibitem[{Bennett et~al.(1969)Bennett, Barton, and Du~Bois}]{bennett1969s}
+Lerone Bennett, Roland~A Barton, and WEB Du~Bois. 1969.
+\newblock What's in a name? negro vs. afro-american vs. black.
+\newblock \emph{ETC: A Review of General Semantics}, pages 399--412.
+
+\bibitem[{Bloomfield(1964)}]{bloomfield1964dixon}
+Maxwell Bloomfield. 1964.
+\newblock Dixon's" the leopard's spots": A study in popular racism.
+\newblock \emph{American Quarterly}, 16(3):387--401.
+
+\bibitem[{Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal, Neelakantan, Shyam, Sastry, Askell et~al.}]{brown2020language}
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared~D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et~al. 2020.
+\newblock Language models are few-shot learners.
+\newblock \emph{Advances in neural information processing systems}, 33:1877--1901.
+
+\bibitem[{Chong and Kwak(2022)}]{chong2022understanding}
+Yun~Yu Chong and Haewoon Kwak. 2022.
+\newblock Understanding toxicity triggers on reddit in the context of singapore.
+\newblock In \emph{Proceedings of the International AAAI Conference on Web and Social Media}, volume~16, pages 1383--1387.
+
+\bibitem[{de~Gibert et~al.(2018)de~Gibert, Perez, Garc{\i}a-Pablos, and Cuadros}]{de2018hate}
+Ona de~Gibert, Naiara Perez, Aitor Garc{\i}a-Pablos, and Montse Cuadros. 2018.
+\newblock Hate speech dataset from a white supremacy forum.
+\newblock \emph{EMNLP 2018}, page~11.
+
+\bibitem[{Devlin et~al.(2018)Devlin, Chang, Lee, and Toutanova}]{devlin2018bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018.
+\newblock Bert: Pre-training of deep bidirectional transformers for language understanding.
+\newblock \emph{arXiv preprint arXiv:1810.04805}.
+
+\bibitem[{Fortuna et~al.(2020)Fortuna, Soler, and Wanner}]{fortuna2020toxic}
+Paula Fortuna, Juan Soler, and Leo Wanner. 2020.
+\newblock Toxic, hateful, offensive or abusive? what are we really classifying? an empirical analysis of hate speech datasets.
+\newblock In \emph{Proceedings of the 12th language resources and evaluation conference}, pages 6786--6794.
+
+\bibitem[{Foster(1987)}]{foster1987ghosts}
+Gaines~M Foster. 1987.
+\newblock \emph{Ghosts of the Confederacy: Defeat, the Lost cause, and the Emergence of the New South, 1865-1913}.
+\newblock Oxford University Press.
+
+\bibitem[{Gulley(1993)}]{gulley1993women}
+Harold~E Gulley. 1993.
+\newblock Women and the lost cause: Preserving a confederate identity in the american deep south.
+\newblock \emph{Journal of historical geography}, 19(2):125--141.
+
+\bibitem[{Harris et~al.(2022)Harris, Halevy, Howard, Bruckman, and Yang}]{harris2022exploring}
+Camille Harris, Matan Halevy, Ayanna Howard, Amy Bruckman, and Diyi Yang. 2022.
+\newblock Exploring the role of grammar and word choice in bias toward african american english (aae) in hate speech classification.
+\newblock In \emph{Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency}, pages 789--798.
+
+\bibitem[{Kennedy et~al.(2020)Kennedy, Jin, Mostafazadeh~Davani, Dehghani, and Ren}]{kennedy2020context}
+Brendan Kennedy, Xisen Jin, Aida Mostafazadeh~Davani, Morteza Dehghani, and Xiang Ren. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.acl-main.483} {Contextualizing hate speech classifiers with post-hoc explanation}.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}, pages 5435--5442, Online. Association for Computational Linguistics.
+
+\bibitem[{Kennedy et~al.(2017)Kennedy, McCollough, Dixon, Bastidas, Ryan, Loo, and Sahay}]{kennedy2017technology}
+George Kennedy, Andrew McCollough, Edward Dixon, Alexei Bastidas, John Ryan, Chris Loo, and Saurav Sahay. 2017.
+\newblock Technology solutions to combat online harassment.
+\newblock In \emph{Proceedings of the first workshop on abusive language online}, pages 73--77.
+
+\bibitem[{Kennedy(1999)}]{kennedy1999can}
+Randall~L Kennedy. 1999.
+\newblock Who can say" nigger"? and other considerations.
+\newblock \emph{The Journal of Blacks in Higher Education}, (26):86--96.
+
+\bibitem[{Mikolov et~al.(2013)Mikolov, Sutskever, Chen, Corrado, and Dean}]{mikolov2013distributed}
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg~S Corrado, and Jeff Dean. 2013.
+\newblock Distributed representations of words and phrases and their compositionality.
+\newblock \emph{Advances in neural information processing systems}, 26.
+
+\bibitem[{Naseem et~al.(2021)Naseem, Razzak, Khan, and Prasad}]{naseem2021comprehensive}
+Usman Naseem, Imran Razzak, Shah~Khalid Khan, and Mukesh Prasad. 2021.
+\newblock A comprehensive survey on word representation models: From classical to state-of-the-art word representation language models.
+\newblock \emph{Transactions on Asian and Low-Resource Language Information Processing}, 20(5):1--35.
+
+\bibitem[{{\"O}cal et~al.(2021){\"O}cal, Xiao, and Park}]{ocal2021reasoning}
+Ay{\c{s}}e {\"O}cal, Lu~Xiao, and Jaihyun Park. 2021.
+\newblock Reasoning in social media: insights from reddit “change my view” submissions.
+\newblock \emph{Online Information Review}, 45(7):1208--1226.
+
+\bibitem[{Park and Jeoung(2022)}]{park2022raison}
+Jaihyun Park and Sullam Jeoung. 2022.
+\newblock Raison d’{\^e}tre of the benchmark dataset: A survey of current practices of benchmark dataset sharing platforms.
+\newblock In \emph{Proceedings of NLP Power! The First Workshop on Efficient Benchmarking in NLP}, pages 1--10.
+
+\bibitem[{Parulian et~al.(2022)Parulian, Dubnicek, Worthey, Evans, Walsh, and Downie}]{parulian2022uncovering}
+Nikolaus~Nova Parulian, Ryan Dubnicek, Glen Worthey, Daniel~J Evans, John~A Walsh, and J~Stephen Downie. 2022.
+\newblock Uncovering black fantastic: Piloting a word feature analysis and machine learning approach for genre classification.
+\newblock \emph{Proceedings of the Association for Information Science and Technology}, 59(1):242--250.
+
+\bibitem[{Pedrazzini and McGillivray(2022)}]{pedrazzini2022machines}
+Nilo Pedrazzini and Barbara McGillivray. 2022.
+\newblock Machines in the media: semantic change in the lexicon of mechanization in 19th-century british newspapers.
+\newblock \emph{NLP4DH 2021}, page~85.
+
+\bibitem[{Pollard(1866)}]{pollard1866lost}
+Edward~Alfred Pollard. 1866.
+\newblock \emph{The Lost Cause: A New Southern History of the War of the Confederates: comprising a full and authentic account of the rise and progress of the late southern Confederacy--the campaigns, battles, incidents, and adventures of the most gigantic struggle of the World's history}.
+\newblock EB Treat.
+
+\bibitem[{Rajadesingan et~al.(2021)Rajadesingan, Budak, and Resnick}]{rajadesingan2021political}
+Ashwin Rajadesingan, Ceren Budak, and Paul Resnick. 2021.
+\newblock Political discussion is abundant in non-political subreddits (and less toxic).
+\newblock In \emph{Proceedings of the International AAAI Conference on Web and Social Media}, volume~15, pages 525--536.
+
+\bibitem[{Rieder and Skop(2021)}]{rieder2021fabrics}
+Bernhard Rieder and Yarden Skop. 2021.
+\newblock The fabrics of machine moderation: Studying the technical, normative, and organizational structure of perspective api.
+\newblock \emph{Big Data \& Society}, 8(2):20539517211046181.
+
+\bibitem[{Sap et~al.(2019)Sap, Card, Gabriel, Choi, and Smith}]{sap2019risk}
+Maarten Sap, Dallas Card, Saadia Gabriel, Yejin Choi, and Noah~A Smith. 2019.
+\newblock The risk of racial bias in hate speech detection.
+\newblock In \emph{Proceedings of the 57th annual meeting of the association for computational linguistics}, pages 1668--1678.
+
+\bibitem[{Smith et~al.(2013)Smith, Cordell, and Dillon}]{smith2013infectious}
+David~A Smith, Ryan Cordell, and Elizabeth~Maddock Dillon. 2013.
+\newblock Infectious texts: Modeling text reuse in nineteenth-century newspapers.
+\newblock In \emph{2013 IEEE International Conference on Big Data}, pages 86--94. IEEE.
+
+\bibitem[{Smith(1992)}]{smith1992changing}
+Tom~W Smith. 1992.
+\newblock Changing racial labels: From “colored” to “negro” to “black” to “african american”.
+\newblock \emph{Public Opinion Quarterly}, 56(4):496--514.
+
+\bibitem[{Soni et~al.(2021)Soni, Klein, and Eisenstein}]{soni2021abolitionist}
+Sandeep Soni, Lauren~F Klein, and Jacob Eisenstein. 2021.
+\newblock Abolitionist networks: Modeling language change in nineteenth-century activist newspapers.
+\newblock \emph{Journal of Cultural Analytics}, 6(1).
+
+\bibitem[{Templeton(2022)}]{petertempletonAntiTomLiteratureSpotlight2022}
+Peter Templeton. 2022.
+\newblock Anti-{{Tom Literature Spotlight}}: {{Caroline Lee Hentz}}.
+\newblock In \emph{The {{Routledge}} Companion to Literature of the {{U}}.{{S}}. {{South}}}, pages 136--140. {Routledge}.
+
+\bibitem[{Touvron et~al.(2023{\natexlab{a}})Touvron, Lavril, Izacard, Martinet, Lachaux, Lacroix, Rozi{\`e}re, Goyal, Hambro, Azhar et~al.}]{touvron2023llama}
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timoth{\'e}e Lacroix, Baptiste Rozi{\`e}re, Naman Goyal, Eric Hambro, Faisal Azhar, et~al. 2023{\natexlab{a}}.
+\newblock Llama: Open and efficient foundation language models.
+\newblock \emph{arXiv preprint arXiv:2302.13971}.
+
+\bibitem[{Touvron et~al.(2023{\natexlab{b}})Touvron, Martin, Stone, Albert, Almahairi, Babaei, Bashlykov, Batra, Bhargava, Bhosale et~al.}]{touvron2023llama2}
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et~al. 2023{\natexlab{b}}.
+\newblock Llama 2: Open foundation and fine-tuned chat models.
+\newblock \emph{arXiv preprint arXiv:2307.09288}.
+
+\bibitem[{Vidgen et~al.(2019)Vidgen, Harris, Nguyen, Tromble, Hale, and Margetts}]{vidgen2019challenges}
+Bertie Vidgen, Alex Harris, Dong Nguyen, Rebekah Tromble, Scott Hale, and Helen Margetts. 2019.
+\newblock Challenges and frontiers in abusive content detection.
+\newblock In \emph{Proceedings of the third workshop on abusive language online}. Association for Computational Linguistics.
+
+\bibitem[{Waseem and Hovy(2016)}]{waseem2016hateful}
+Zeerak Waseem and Dirk Hovy. 2016.
+\newblock Hateful symbols or hateful people? predictive features for hate speech detection on twitter.
+\newblock In \emph{Proceedings of the NAACL student research workshop}, pages 88--93.
+
+\bibitem[{Worsham and Kalita(2018)}]{worsham2018genre}
+Joseph Worsham and Jugal Kalita. 2018.
+\newblock Genre identification and the compositional effect of genre in literature.
+\newblock In \emph{Proceedings of the 27th international conference on computational linguistics}, pages 1963--1973.
+
+\bibitem[{Wulczyn et~al.(2017)Wulczyn, Thain, and Dixon}]{wulczyn2017ex}
+Ellery Wulczyn, Nithum Thain, and Lucas Dixon. 2017.
+\newblock Ex machina: Personal attacks seen at scale.
+\newblock In \emph{Proceedings of the 26th international conference on world wide web}, pages 1391--1399.
+
+\bibitem[{Zannettou et~al.(2018)Zannettou, Bradlyn, De~Cristofaro, Kwak, Sirivianos, Stringini, and Blackburn}]{zannettou2018gab}
+Savvas Zannettou, Barry Bradlyn, Emiliano De~Cristofaro, Haewoon Kwak, Michael Sirivianos, Gianluca Stringini, and Jeremy Blackburn. 2018.
+\newblock What is gab: A bastion of free speech or an alt-right echo chamber.
+\newblock In \emph{Companion Proceedings of the The Web Conference 2018}, pages 1007--1014.
+
+\end{thebibliography}

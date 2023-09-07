@@ -1,0 +1,296 @@
+% This must be in the first 5 lines to tell arXiv to use pdfLaTeX, which is strongly recommended.
+\pdfoutput=1
+% In particular, the hyperref package requires pdfLaTeX in order to break URLs across lines.
+
+\documentclass[11pt]{article}
+
+% Remove the "review" option to generate the final version.
+\usepackage[review]{EACL2023}
+
+% Standard package includes
+\usepackage{times}
+\usepackage{latexsym}
+
+% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
+\usepackage[T1]{fontenc}
+% For Vietnamese characters
+% \usepackage[T5]{fontenc}
+% See https://www.latex-project.org/help/documentation/encguide.pdf for other character sets
+
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+
+% This is not strictly necessary, and may be commented out.
+% However, it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+% This is also not strictly necessary, and may be commented out.
+% However, it will improve the aesthetics of text in
+% the typewriter font.
+\usepackage{inconsolata}
+
+
+% If the title and author information does not fit in the area allocated, uncomment the following
+%
+%\setlength\titlebox{<dim>}
+%
+% and set <dim> to something 5cm or larger.
+
+\title{Difficulties of Detecting Hate Speech in Culturally Embedded Language: \\
+A Case Study of White Supremacist Literature}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+
+\author{First Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  Affiliation / Address line 3 \\
+  \texttt{email@domain} \\\And
+  Second Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  Affiliation / Address line 3 \\
+  \texttt{email@domain} \\}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+This document is a supplement to the general instructions for *ACL authors. It contains instructions for using the \LaTeX{} style file for EACL 2023.
+The document itself conforms to its own specifications, and is, therefore, an example of what your manuscript should look like.
+These instructions should be used both for papers submitted for review and for final versions of accepted papers.
+\end{abstract}
+
+\section{Introduction} \label{sec:intro}
+
+The field of NLP has made great strides in recent years from representation learning (e.g., Word2vec \cite{mikolov2013distributed}) 
+to fine-tuning pre-trained language models (e.g., BERT \cite{devlin2018bert}) \cite{naseem2021comprehensive} to achieve state-of-the-art performance on a wide range of NLP tasks.
+This development of NLP has been accompanied by various benchmarks and datasets, which have been used to evaluate the performance of NLP models \cite{park2022raison}.
+The field of hate speech detection has also benefited from the development of NLP, with various datasets and benchmarks. Despite varied definitions of hate speech \cite{fortuna2020toxic}, 
+the field has made progress  thanks to the availability of text data from Wikipedia Talk Pages \cite{wulczyn2017ex}, 
+Twitter \cite{waseem2016hateful}, and website forum like Stormfront \cite{de2018hate} where White supremacists congregate. 
+However, there has been little work on the detection of hate speech in literature in general. This might be in part due to 
+the sparsity of White supremacist literature in 21st century America. However, in the 20th century, White supremacist
+literature was published and formed a unique genre called \textit{``Anti-Tom''} literature, as opposed to 
+\textit{``Uncle Tom's Cabin''} by Harriet Beecher Stowe. \textit{``Anti-Tom''} genre shares similar idea of 
+``The Lost Cause of the Confederacy''  which embodies
+the tenets that Southern men fought for a just cause (e.g., rights of property, 
+and self-determination) \cite{pollard1866lost} and the defeat of the Confederacy has led to the
+destruction of the values of the South \cite{foster1987ghosts,gulley1993women}. 
+In opposition to the \textit{``Uncle Tom's Cabin''}, where slavery is depicted as an evil institution,
+depraving slaves of their humanity, \textit{``Anti-Tom''} literature is characterized by
+provoking positive image of slavery with benevolent masters and happy slaves \cite{petertempletonAntiTomLiteratureSpotlight2022}.
+This image is well-illustrated in the novel and the film, \textit{``Gone with the Wind''} by Margaret Mitchell.
+Among the writers of White supremacist literature, Thomas Dixon Jr. is one of the most prominent writers. 
+His trilogy, \textit{``The Leopard's Spots''}, \textit{``The Clansman''}, and \textit{``The Traitor''}
+created a fictional character in the Ku Klux Klan and his passionate Black-phobia
+was framed as a heroic and romantic quality. Dixon's book attracted a large audience. The first edition of 
+\textit{``The Leopard's Spots''} comprising 15,000 copies was exhausted on publication \cite{bloomfield1964dixon}.
+
+In this study, we use Dixon's trilogy as a case study of applying hate speech detection datasets made in the 21st century 
+and examining the text the large language model generates with hateful text written in the 20th century.
+To the best of our knowledge, this study attempts to analyze ``Anti-Tom'' or White supremacy genre literature 
+with NLP for the first time.
+The contribution of this study is two-fold. (1) This study provides a benchmark result by comparing the performance of classifiers from traditional feature-based classifiers to
+pre-trained language model classifiers to examine which of NLP model works the best in detecting hateful language written in the 20th century.
+(2) This study uses the hateful text from the literature as a prompt for generative AI, Llama 2 \cite{touvron2023llama2} and examined the generated
+text by Llama 2.
+
+We found (1) XXX and (2) YYY.
+
+\section{Related Works} \label{sec:related_works}
+
+\subsection{Application of NLP to Historical Texts} \label{sec:application_nlp}
+Applying NLP to the historical text is not a new idea. 
+\citet{pedrazzini2022machines} used a diachronic word embedding
+to trace the semantic change of the word associated with Industrial
+Revolution and presented how the meaning of the word shifted 
+in digitized 19th century British newspapers. 
+\citet{soni2021abolitionist} also used the abolitionist newspapers from
+the 19th century to trace semantic changes of the word by using 
+diachronic word embeddings similar to \citeauthor{pedrazzini2022machines}.
+Another research group took a large scale digitized historical newspapers
+and used NLP technique to detect the text reprints in the historical newspapers \cite{smith2013infectious}
+
+While aforementioned studies used historical newspapers as a primary corpus for the analysis,
+there also have been studies on applying NLP to historical literature.
+\citet{parulian2022uncovering} studied word features by comparing
+Bag-of-Words and full-text embeddings and classified 
+Black Fantastic genre with feature-based classifiers.
+Another study using Project Gutenberg corpus compared 
+deep learning models and traditional feature-based method for 
+genre classification \cite{worsham2018genre}.
+
+However, there has been a gap of understanding the White supremacist literature, 
+especially the genre called \textit{``Anti-Tom''} and there has been no work on applying
+datasets created in the 21st century to the literature written in the 20th century. 
+This study attempts to fill this gap by applying the datasets created in the 21st century
+and examine the performance of the classifiers. The advancement of hate speech detection
+in NLP is presented in the following section \ref{sec:hate_speech_detection}.
+
+\subsection{Hate Speech Detection} \label{sec:hate_speech_detection}
+The rise of social media has made easy-to-access text data available for NLP research.
+The online communication space play a role as a space for sharing
+ideas and opinions \cite{ocal2021reasoning}, but its anonymity and lack of accountability 
+have led to the proliferation of hate speech \cite{fortuna2020toxic}.
+Social media platform like Twitter and Reddit has attracted researchers to 
+collect, annotate, and publish datasets for hate speech detection \cite{waseem2016hateful,kennedy2017technology}. Among 
+many other datasets, \citet{wulczyn2017ex} collected personal attack
+comments from Wikipedia discussion pages and annotated them with crowd-sourcing. 
+Another popular hate speech dataset is from Twitter with three 
+categories of racism, sexism, and neither \cite{waseem2016hateful}. 
+
+While these datasets have collected text data from online space that is not
+necessarily a communication space for White supremacists, White supremacist
+forum like Stormfront and Gab have also been used to collect text data 
+for hate speech detection \cite{de2018hate} and study echo chambers \cite{zannettou2018gab}.
+The availability of these datasets also have led to create a service
+for online content moderation \cite{rieder2021fabrics}, called Perspective API.
+Perspective API \footnote{\url{https://www.perspectiveapi.com/}} is a service 
+hosted by Google that provides a degree of toxicity of the text input. 
+Many research on incivil behavior in online space have used Perspective API 
+to quantify the toxicity of the text \cite{rajadesingan2021political,chong2022understanding}.
+
+% \subsection{Generative AI and Impact} \label{sec:generative_ai_impact}
+% The generative AI has received a lot of attention in recent years.
+% The good performance in professional fields like bar exam \cite{katz2023gpt}
+% and writing \cite{elkins2020can} surprised the public and researchers in NLP.
+% However, the immeasurable size of the model and the lack of understanding of the model 
+% have raised concerns about the potential harm of the generative AI \cite{bender2021dangers}.
+% As \citet{mcguffie2020radicalization} reports, large language models (LLMs) 
+% like GPT-3 \cite{brown2020language} can generate text that integrates 
+% niche knowledge with radical ideologies and bias (e.g., QAnon, Anti-Semitic, and mass shooting).
+% So-called ``Garbage-in and garbage-out'' could explain
+% the amplification of the negative, stereotypical, and derogatory language \cite{dinan2021anticipating}.
+% We witnessed the harm of the LLMs in the case of Tay, a chatbot developed by Microsoft
+% that generated racist, sexist, and anti-Semitic language \cite{wolf2017we}.
+% The impact of the LLMs could be worse if humans interact with the LLMs more often
+% as the access boundary of generative AI is lowered \cite{park2022raison}.
+% One study experimented that when participants write an argumentative essay with
+% the help of AI system, they reported that the way of thinking
+% is changed and they are more likely to agree with what AI system suggests 
+% \cite{fyfe2022cheat}. Therefore, a careful consideration of the quality of dataset is needed 
+% to prevent the amplification of negative language \cite{gunasekar2023textbooks}.
+
+\subsection{Problems of Hate Speech Datasets} \label{sec:problems_hate_speech_datasets}
+
+Despite advances in NLP have made a great progress in hate speech detection,
+there are still problems in hate speech detection. 
+\citet{vidgen2019challenges} summarized the challenges of hate speech detection
+in three categories: (1) the lack of a clear agreement on the type of hate speech (e.g., 
+individual-directed abuse, identity-directed abuse, and concept-directed abuse),
+(2) the lack of a clear definition of terminology in use (e.g., the intention of the speaker,
+the effect of abuse, and the sensibilities of the audience) and (3) the lack of a clear
+context of the text. \citeauthor{vidgen2019challenges} brings the example of the term
+\textit{n-word} has an almost opposite meaning if spoken by a White compared to a Black person.
+
+In similar vein, \citet{sap2019risk} empirically showed that hate speech detection
+models are biased against African American English (AAE). 
+They found that the \textit{n-word} is more associated with toxicity in Perspective API
+and the argued that the speaker's identity becomes a factor in determining the toxicity of the text.
+To mitigate such racial bias, one study experimented with syntactic feature of AAE
+and tested if correcting the AAE grammar to Standard American English (SAE) 
+could help reduced flagging AAE as toxic \cite{harris2022exploring}.
+Another study Neural classifiers are more known to be over-sensitive to group identifiers like
+``Muslim'' and ``Black'' \cite{kennedy2020context}.
+
+
+\section{Methodology} \label{sec:methodology}
+
+\subsection{Thomas Dixon Jr's Trilogy} \label{sec:thomas_dixon}
+The full text of \textit{``The Leopard's Spots''}, \textit{``The Clansman''}, and \textit{``The Traitor''} 
+are available in HathiTrust Digital Library \footnote{\url{https://babel.hathitrust.org}}. 
+The text was cleaned by removing the HathiTrust terms of use and copyright 
+information at the beginning and the end of the text.
+Once the text is cleaned, we used BookNLP \cite{bamman2014bayesian} 
+to extract the speech of the characters in the novel.
+The extracted quotes are used as a training data for the hate speech detection model.
+
+\subsection{Human Annotation} \label{sec:human_annotation}
+
+Two authors of this study annotated the quotes extracted from the novels.
+The annotation followed the definition of datasets used in this study (see section \ref{sec:datasets}).
+
+Although the first African American immigrants did not prefer \textit{n-word} 
+to refer to themselves \cite{bennett1969s}, the \textit{n-word} remained
+the standard term for African Americans until the 20th century.
+African American leaders like Booker T. Washington and W.E.B. Du Bois used the word 
+\textit{n-word} in their speeches and writings \cite{smith1992changing}.
+As the \textit{n-word} becomes a slur when speakers intentionally
+use the word to degrade African Americans \cite{kennedy1999can}, 
+\textit{n-word} written in the 20th century literature may not
+necessarily be a derogatory term.
+Culturally accepted terms change over time. Therefore, we adopted the language culture 
+of the 20th century and regarded the \textit{n-word},
+\textit{colored people} and/or \textit{black} not as a derogatory term in annotation.
+When the \textit{n-word} is used without any word that conveys derogatory meaning,
+we annotated non-hateful. That being said, whether the quote is hateful or not
+was determined by the context of the quote, not by the existence of the \textit{n-word}.
+Instead, we annotated the quotes that convey White supremacist ideology such as
+upholding slavery and Black inferiority (such as opposing Black suffrage) as hateful.
+However, general statements of restoring Confederacy and Southern pride were
+not annotated as hateful.
+
+\subsection{Datasets for Classification} \label{sec:datasets}
+The hate speech dataset comprises sexism or anti-semitism or, anti-Asian could be irrelevant
+to the White supremacist literature. Therefore, we chose the dataset that is situated in the
+context of the White supremacist ideology and targeted to African Americans.
+The first dataset 
+
+  
+
+\subsection{Generative AI and Measuring Toxicity} \label{sec:generative_ai}
+
+\citet{touvron2023llama} released Llama with publicly available datasets with
+open-source code, compared to GPT-3 \cite{brown2020language} which is a proprietary model.
+We used Llama 2 inference model with 13B parameters implemented in C++ \footnote{\url{https://github.com/ggerganov/llama.cpp}}.
+In the fine-tuning process, we used \textit{n=64} to predict 64 tokens to predict when generating text (default=128)
+and \textit{n=1.5} to pose a penalty on the repetition of the tokens (default=1.1). The rest of 
+the parameters are set to default. We used the speech of the characters in the novel as a prompt
+for the Llama 2. The generated text is evaluated with Perspective API. 
+
+
+
+\subsection{Experiments} \label{sec:experiments}
+
+Train: 20C White supremacy literature VS Test: 21C century dataset 
+Train: 21C hate speech dataset VS Test: 20C White supremacy literature
+Llama 2
+
+\section{Results} \label{sec:results}
+
+\section{Discussion}
+Error analysis reveals that the 21C hate speech dataset is overfitted 
+to the word ``negro'' although the word ``negro'' may not
+necessarily be a derogatory word to refer to African Americans in the 20C. 
+
+Social media affordances like hashtags and emojis are not present in the 20C literature. 
+
+
+
+% Entries for the entire Anthology, followed by custom entries
+\bibliography{anthology,custom}
+\bibliographystyle{acl_natbib}
+
+\appendix
+
+\section{Example Appendix}
+\label{sec:appendix}
+
+This is a section in the appendix. Error analysis?
+
+\end{document}
