@@ -37,8 +37,7 @@
 %
 % and set <dim> to something 5cm or larger.
 
-\title{Difficulties of Detecting Hate Speech in Culturally Embedded Language: \\
-A Case Study of White Supremacist Literature}
+\title{A Comparative Analysis of Asian Worker Stereotypes in American Newspapers}
 
 % Author information can be set in various styles:
 % For several authors from the same institution:
@@ -56,8 +55,8 @@ A Case Study of White Supremacist Literature}
 %         Author 2 \\ Address line \\ ... \\ Address line \And
 %         Author 3 \\ Address line \\ ... \\ Address line}
 
-\author{First Author \\
-  Affiliation / Address line 1 \\
+\author{Jaihyun Park \\
+  School of Information Sciences / University of Illinois at Urbana-Champaign \\
   Affiliation / Address line 2 \\
   Affiliation / Address line 3 \\
   \texttt{email@domain} \\\And
@@ -77,40 +76,26 @@ These instructions should be used both for papers submitted for review and for f
 
 \section{Introduction} \label{sec:intro}
 
-The field of NLP has made great strides in recent years from representation learning (e.g., Word2vec \cite{mikolov2013distributed}) 
-to fine-tuning pre-trained language models (e.g., BERT \cite{devlin2018bert}) \cite{naseem2021comprehensive} to achieve state-of-the-art performance on a wide range of NLP tasks.
-This development of NLP has been accompanied by various benchmarks and datasets, which have been used to evaluate the performance of NLP models \cite{park2022raison}.
-The field of hate speech detection has also benefited from the development of NLP, with various datasets and benchmarks. Despite varied definitions of hate speech \cite{fortuna2020toxic}, 
-the field has made progress  thanks to the availability of text data from Wikipedia Talk Pages \cite{wulczyn2017ex}, 
-Twitter \cite{waseem2016hateful}, and website forum like Stormfront \cite{de2018hate} where White supremacists congregate. 
-However, there has been little work on the detection of hate speech in literature in general. This might be in part due to 
-the sparsity of White supremacist literature in 21st century America. However, in the 20th century, White supremacist
-literature was published and formed a unique genre called \textit{``Anti-Tom''} literature, as opposed to 
-\textit{``Uncle Tom's Cabin''} by Harriet Beecher Stowe. \textit{``Anti-Tom''} genre shares similar idea of 
-``The Lost Cause of the Confederacy''  which embodies
-the tenets that Southern men fought for a just cause (e.g., rights of property, 
-and self-determination) \cite{pollard1866lost} and the defeat of the Confederacy has led to the
-destruction of the values of the South \cite{foster1987ghosts,gulley1993women}. 
-In opposition to the \textit{``Uncle Tom's Cabin''}, where slavery is depicted as an evil institution,
-depraving slaves of their humanity, \textit{``Anti-Tom''} literature is characterized by
-provoking positive image of slavery with benevolent masters and happy slaves \cite{petertempletonAntiTomLiteratureSpotlight2022}.
-This image is well-illustrated in the novel and the film, \textit{``Gone with the Wind''} by Margaret Mitchell.
-Among the writers of White supremacist literature, Thomas Dixon Jr. is one of the most prominent writers. 
-His trilogy, \textit{``The Leopard's Spots''}, \textit{``The Clansman''}, and \textit{``The Traitor''}
-created a fictional character in the Ku Klux Klan and his passionate Black-phobia
-was framed as a heroic and romantic quality. Dixon's book attracted a large audience. The first edition of 
-\textit{``The Leopard's Spots''} comprising 15,000 copies was exhausted on publication \cite{bloomfield1964dixon}.
-
-In this study, we use Dixon's trilogy as a case study of applying hate speech detection datasets made in the 21st century 
-and examining the text the large language model generates with hateful text written in the 20th century.
-To the best of our knowledge, this study attempts to analyze ``Anti-Tom'' or White supremacy genre literature 
-with NLP for the first time.
-The contribution of this study is two-fold. (1) This study provides a benchmark result by comparing the performance of classifiers from traditional feature-based classifiers to
-pre-trained language model classifiers to examine which of NLP model works the best in detecting hateful language written in the 20th century.
-(2) This study uses the hateful text from the literature as a prompt for generative AI, Llama 2 \cite{touvron2023llama2} and examined the generated
-text by Llama 2.
-
-We found (1) XXX and (2) YYY.
+Digitization of historical texts has opened up new opportunities for 
+researchers to explore a large-scale corpus of historical texts
+with computational methods. Especially, the ready availability
+of datasets required for Natural Language Processing (NLP) research 
+has welcomed researchers from other disciplines to NLP research \cite{park2022raison} 
+and reduced the barriers to entry of NLP research.
+Taking this advantage, many researchers in diverse field,
+namely Sociology, History, English, and Information Science 
+have applied NLP techniques to historical texts, such as books \cite{parulian2022uncovering}, 
+newspapers \cite{smith2013infectious,pedrazzini2022machines,santin2016or},
+and/or congressional records \cite{lin2022enhancing, guldi2019parliament}.
+Creating an interdisciplinary research space called \textit{Digital Humanities}, 
+there have been studies primarily focusing on the race problem in the United States.
+To introduce a few large-scale computational research, 
+\citet{soni2021abolitionist} traced the semantic change of the word,
+when and which newspaper started to use the word with a new meaning and when and which
+newspapers adopted new semantic meaning of the word in abolitionist newspapers from the 19th century. 
+\citet{franzosi2012ways} analyzed racial violence, especially lynching performed by the White mob
+in the 19th century Georgia and presented quantitative narratives of the racial violence.
+However, despite the increasing attention toward  
 
 \section{Related Works} \label{sec:related_works}
 

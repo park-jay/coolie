@@ -1,4 +1,4 @@
-\begin{thebibliography}{35}
+\begin{thebibliography}{30}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Bamman et~al.(2014)Bamman, Underwood, and Smith}]{bamman2014bayesian}
@@ -10,11 +10,6 @@ David Bamman, Ted Underwood, and Noah~A Smith. 2014.
 Lerone Bennett, Roland~A Barton, and WEB Du~Bois. 1969.
 \newblock What's in a name? negro vs. afro-american vs. black.
 \newblock \emph{ETC: A Review of General Semantics}, pages 399--412.
-
-\bibitem[{Bloomfield(1964)}]{bloomfield1964dixon}
-Maxwell Bloomfield. 1964.
-\newblock Dixon's" the leopard's spots": A study in popular racism.
-\newblock \emph{American Quarterly}, 16(3):387--401.
 
 \bibitem[{Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal, Neelakantan, Shyam, Sastry, Askell et~al.}]{brown2020language}
 Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared~D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et~al. 2020.
@@ -31,25 +26,20 @@ Ona de~Gibert, Naiara Perez, Aitor Garc{\i}a-Pablos, and Montse Cuadros. 2018.
 \newblock Hate speech dataset from a white supremacy forum.
 \newblock \emph{EMNLP 2018}, page~11.
 
-\bibitem[{Devlin et~al.(2018)Devlin, Chang, Lee, and Toutanova}]{devlin2018bert}
-Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018.
-\newblock Bert: Pre-training of deep bidirectional transformers for language understanding.
-\newblock \emph{arXiv preprint arXiv:1810.04805}.
-
 \bibitem[{Fortuna et~al.(2020)Fortuna, Soler, and Wanner}]{fortuna2020toxic}
 Paula Fortuna, Juan Soler, and Leo Wanner. 2020.
 \newblock Toxic, hateful, offensive or abusive? what are we really classifying? an empirical analysis of hate speech datasets.
 \newblock In \emph{Proceedings of the 12th language resources and evaluation conference}, pages 6786--6794.
 
-\bibitem[{Foster(1987)}]{foster1987ghosts}
-Gaines~M Foster. 1987.
-\newblock \emph{Ghosts of the Confederacy: Defeat, the Lost cause, and the Emergence of the New South, 1865-1913}.
-\newblock Oxford University Press.
+\bibitem[{Franzosi et~al.(2012)Franzosi, De~Fazio, and Vicari}]{franzosi2012ways}
+Roberto Franzosi, Gianluca De~Fazio, and Stefania Vicari. 2012.
+\newblock Ways of measuring agency: an application of quantitative narrative analysis to lynchings in georgia (1875--1930).
+\newblock \emph{Sociological Methodology}, 42(1):1--42.
 
-\bibitem[{Gulley(1993)}]{gulley1993women}
-Harold~E Gulley. 1993.
-\newblock Women and the lost cause: Preserving a confederate identity in the american deep south.
-\newblock \emph{Journal of historical geography}, 19(2):125--141.
+\bibitem[{Guldi(2019)}]{guldi2019parliament}
+Jo~Guldi. 2019.
+\newblock Parliament's debates about infrastructure: an exercise in using dynamic topic models to synthesize historical change.
+\newblock \emph{Technology and Culture}, 60(1):1--33.
 
 \bibitem[{Harris et~al.(2022)Harris, Halevy, Howard, Bruckman, and Yang}]{harris2022exploring}
 Camille Harris, Matan Halevy, Ayanna Howard, Amy Bruckman, and Diyi Yang. 2022.
@@ -71,15 +61,10 @@ Randall~L Kennedy. 1999.
 \newblock Who can say" nigger"? and other considerations.
 \newblock \emph{The Journal of Blacks in Higher Education}, (26):86--96.
 
-\bibitem[{Mikolov et~al.(2013)Mikolov, Sutskever, Chen, Corrado, and Dean}]{mikolov2013distributed}
-Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg~S Corrado, and Jeff Dean. 2013.
-\newblock Distributed representations of words and phrases and their compositionality.
-\newblock \emph{Advances in neural information processing systems}, 26.
-
-\bibitem[{Naseem et~al.(2021)Naseem, Razzak, Khan, and Prasad}]{naseem2021comprehensive}
-Usman Naseem, Imran Razzak, Shah~Khalid Khan, and Mukesh Prasad. 2021.
-\newblock A comprehensive survey on word representation models: From classical to state-of-the-art word representation language models.
-\newblock \emph{Transactions on Asian and Low-Resource Language Information Processing}, 20(5):1--35.
+\bibitem[{Lin and Peng(2022)}]{lin2022enhancing}
+King~Ip Lin and Sabrina Peng. 2022.
+\newblock Enhancing digital history--event discovery via topic modeling and change detection.
+\newblock In \emph{Proceedings of the 2nd International Workshop on Natural Language Processing for Digital Humanities}, pages 69--78.
 
 \bibitem[{{\"O}cal et~al.(2021){\"O}cal, Xiao, and Park}]{ocal2021reasoning}
 Ay{\c{s}}e {\"O}cal, Lu~Xiao, and Jaihyun Park. 2021.
@@ -99,12 +84,7 @@ Nikolaus~Nova Parulian, Ryan Dubnicek, Glen Worthey, Daniel~J Evans, John~A Wals
 \bibitem[{Pedrazzini and McGillivray(2022)}]{pedrazzini2022machines}
 Nilo Pedrazzini and Barbara McGillivray. 2022.
 \newblock Machines in the media: semantic change in the lexicon of mechanization in 19th-century british newspapers.
-\newblock \emph{NLP4DH 2021}, page~85.
-
-\bibitem[{Pollard(1866)}]{pollard1866lost}
-Edward~Alfred Pollard. 1866.
-\newblock \emph{The Lost Cause: A New Southern History of the War of the Confederates: comprising a full and authentic account of the rise and progress of the late southern Confederacy--the campaigns, battles, incidents, and adventures of the most gigantic struggle of the World's history}.
-\newblock EB Treat.
+\newblock In \emph{Proceedings of the 2nd International Workshop on Natural Language Processing for Digital Humanities}, pages 85--95.
 
 \bibitem[{Rajadesingan et~al.(2021)Rajadesingan, Budak, and Resnick}]{rajadesingan2021political}
 Ashwin Rajadesingan, Ceren Budak, and Paul Resnick. 2021.
@@ -115,6 +95,11 @@ Ashwin Rajadesingan, Ceren Budak, and Paul Resnick. 2021.
 Bernhard Rieder and Yarden Skop. 2021.
 \newblock The fabrics of machine moderation: Studying the technical, normative, and organizational structure of perspective api.
 \newblock \emph{Big Data \& Society}, 8(2):20539517211046181.
+
+\bibitem[{Santin et~al.(2016)Santin, Murphy, and Wilkens}]{santin2016or}
+Bryan Santin, Daniel Murphy, and Matthew Wilkens. 2016.
+\newblock Is or are: The" united states" in nineteenth-century print culture.
+\newblock \emph{American Quarterly}, 68(1):101--124.
 
 \bibitem[{Sap et~al.(2019)Sap, Card, Gabriel, Choi, and Smith}]{sap2019risk}
 Maarten Sap, Dallas Card, Saadia Gabriel, Yejin Choi, and Noah~A Smith. 2019.
@@ -136,20 +121,10 @@ Sandeep Soni, Lauren~F Klein, and Jacob Eisenstein. 2021.
 \newblock Abolitionist networks: Modeling language change in nineteenth-century activist newspapers.
 \newblock \emph{Journal of Cultural Analytics}, 6(1).
 
-\bibitem[{Templeton(2022)}]{petertempletonAntiTomLiteratureSpotlight2022}
-Peter Templeton. 2022.
-\newblock Anti-{{Tom Literature Spotlight}}: {{Caroline Lee Hentz}}.
-\newblock In \emph{The {{Routledge}} Companion to Literature of the {{U}}.{{S}}. {{South}}}, pages 136--140. {Routledge}.
-
-\bibitem[{Touvron et~al.(2023{\natexlab{a}})Touvron, Lavril, Izacard, Martinet, Lachaux, Lacroix, Rozi{\`e}re, Goyal, Hambro, Azhar et~al.}]{touvron2023llama}
-Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timoth{\'e}e Lacroix, Baptiste Rozi{\`e}re, Naman Goyal, Eric Hambro, Faisal Azhar, et~al. 2023{\natexlab{a}}.
+\bibitem[{Touvron et~al.(2023)Touvron, Lavril, Izacard, Martinet, Lachaux, Lacroix, Rozi{\`e}re, Goyal, Hambro, Azhar et~al.}]{touvron2023llama}
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timoth{\'e}e Lacroix, Baptiste Rozi{\`e}re, Naman Goyal, Eric Hambro, Faisal Azhar, et~al. 2023.
 \newblock Llama: Open and efficient foundation language models.
 \newblock \emph{arXiv preprint arXiv:2302.13971}.
-
-\bibitem[{Touvron et~al.(2023{\natexlab{b}})Touvron, Martin, Stone, Albert, Almahairi, Babaei, Bashlykov, Batra, Bhargava, Bhosale et~al.}]{touvron2023llama2}
-Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et~al. 2023{\natexlab{b}}.
-\newblock Llama 2: Open foundation and fine-tuned chat models.
-\newblock \emph{arXiv preprint arXiv:2307.09288}.
 
 \bibitem[{Vidgen et~al.(2019)Vidgen, Harris, Nguyen, Tromble, Hale, and Margetts}]{vidgen2019challenges}
 Bertie Vidgen, Alex Harris, Dong Nguyen, Rebekah Tromble, Scott Hale, and Helen Margetts. 2019.
