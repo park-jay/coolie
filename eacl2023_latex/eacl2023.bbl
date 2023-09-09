@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{33}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Bamman et~al.(2014)Bamman, Underwood, and Smith}]{bamman2014bayesian}
@@ -25,6 +25,11 @@ Yun~Yu Chong and Haewoon Kwak. 2022.
 Ona de~Gibert, Naiara Perez, Aitor Garc{\i}a-Pablos, and Montse Cuadros. 2018.
 \newblock Hate speech dataset from a white supremacy forum.
 \newblock \emph{EMNLP 2018}, page~11.
+
+\bibitem[{Farley(1968)}]{farley1968chinese}
+M~Foster Farley. 1968.
+\newblock The chinese coolie trade 1845-1875.
+\newblock \emph{Journal of Asian and African Studies}, 3(3):257--270.
 
 \bibitem[{Fortuna et~al.(2020)Fortuna, Soler, and Wanner}]{fortuna2020toxic}
 Paula Fortuna, Juan Soler, and Leo Wanner. 2020.
@@ -61,6 +66,11 @@ Randall~L Kennedy. 1999.
 \newblock Who can say" nigger"? and other considerations.
 \newblock \emph{The Journal of Blacks in Higher Education}, (26):86--96.
 
+\bibitem[{Lee(2002)}]{lee2002chinese}
+Erika Lee. 2002.
+\newblock The chinese exclusion example: Race, immigration, and american gatekeeping, 1882-1924.
+\newblock \emph{Journal of American Ethnic History}, 21(3):36--62.
+
 \bibitem[{Lin and Peng(2022)}]{lin2022enhancing}
 King~Ip Lin and Sabrina Peng. 2022.
 \newblock Enhancing digital history--event discovery via topic modeling and change detection.
@@ -90,6 +100,11 @@ Nilo Pedrazzini and Barbara McGillivray. 2022.
 Ashwin Rajadesingan, Ceren Budak, and Paul Resnick. 2021.
 \newblock Political discussion is abundant in non-political subreddits (and less toxic).
 \newblock In \emph{Proceedings of the International AAAI Conference on Web and Social Media}, volume~15, pages 525--536.
+
+\bibitem[{Rhoads(2002)}]{rhoads2002white}
+Edward~JM Rhoads. 2002.
+\newblock " white labor" vs." coolie labor": The" chinese question" in pennsylvania in the 1870s.
+\newblock \emph{Journal of American Ethnic History}, 21(2):3--32.
 
 \bibitem[{Rieder and Skop(2021)}]{rieder2021fabrics}
 Bernhard Rieder and Yarden Skop. 2021.
