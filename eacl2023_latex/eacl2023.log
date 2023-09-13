@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  12 SEP 2023 14:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  12 SEP 2023 22:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -473,76 +473,101 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 71.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 108.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 109.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 108.
+(Font)              scaled to size 9.0pt on input line 109.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
 [][][][][]$\T1/zi4/m/n/9 https : / / www . britannica . com / money / topic /
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 126.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 127.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
 [][][][][]$\T1/zi4/m/n/9 https : / / chroniclingamerica . loc . gov / lccn /
  []
 
-[2]
-<figure/heatmap-token-200.pdf, id=110, 2505.99861pt x 2660.66629pt>
-File: figure/heatmap-token-200.pdf Graphic file (type pdf)
-<use figure/heatmap-token-200.pdf>
-Package pdftex.def Info: figure/heatmap-token-200.pdf  used on input line 224.
-(pdftex.def)             Requested size: 273.14923pt x 289.9947pt.
-<figure/z-score-token.pdf, id=111, 620.73863pt x 398.2466pt>
-File: figure/z-score-token.pdf Graphic file (type pdf)
-<use figure/z-score-token.pdf>
-Package pdftex.def Info: figure/z-score-token.pdf  used on input line 237.
-(pdftex.def)             Requested size: 273.14923pt x 175.24727pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- (./eacl2023.bbl
+ [2]
+<figure/heatmap-token-200.pdf, id=102, 2505.99861pt x 2660.66629pt>
+File: figure/heatmap-token-200.pdf Graphic file (type pdf)
+<use figure/heatmap-token-200.pdf>
+Package pdftex.def Info: figure/heatmap-token-200.pdf  used on input line 210.
+(pdftex.def)             Requested size: 295.90588pt x 314.15077pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 299--312
+[]\T1/ptm/m/n/10.95 (+20) However, the most dis-sim-i-lar States, Mas-
+ []
+
+[3]
+Underfull \vbox (badness 3148) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./figure/heatmap-token-200.pdf>]
+<figure/z-score-token.pdf, id=207, 620.73863pt x 398.2466pt>
+File: figure/z-score-token.pdf Graphic file (type pdf)
+<use figure/z-score-token.pdf>
+Package pdftex.def Info: figure/z-score-token.pdf  used on input line 318.
+(pdftex.def)             Requested size: 295.90588pt x 189.84361pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./eacl2023.bbl
 Overfull \hbox (0.58234pt too wide) in paragraph at lines 16--19
 \T1/ptm/m/n/10 (-20) 1875.  \T1/ptm/m/it/10 (-20) Journal of Asian and African Studies\T1/ptm/m/n/10 (-20) , 3(3):257--
  []
 
-[3] [4 <./figure/heatmap-token-200.pdf> <./figure/z-score-token.pdf>]
+
 Underfull \hbox (badness 4518) in paragraph at lines 81--84
 \T1/ptm/m/n/10 (+20) 2016.  Is or are: The" united states" in
  []
 
-) [5
-
-] (./eacl2023.aux)
+) [5] [6 <./figure/z-score-token.pdf>] (./eacl2023.aux)
 Package rerunfilecheck Info: File `eacl2023.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15254 strings out of 476025
- 246414 string characters out of 5790017
- 1885388 words of memory out of 5000000
- 35130 multiletter control sequences out of 15000+600000
- 568842 words of font info for 276 fonts, out of 8000000 for 9000
+ 15280 strings out of 476025
+ 246703 string characters out of 5790017
+ 1912388 words of memory out of 5000000
+ 35138 multiletter control sequences out of 15000+600000
+ 569777 words of font info for 286 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,10n,90p,1062b,635s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,15n,90p,1062b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on eacl2023.pdf (5 pages, 306831 bytes).
+Output written on eacl2023.pdf (6 pages, 313737 bytes).
 PDF statistics:
- 314 PDF objects out of 1000 (max. 8388607)
- 178 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 326 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
  55819 words of extra memory for PDF output out of 61914 (max. 10000000)
 
