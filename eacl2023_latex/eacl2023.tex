@@ -38,7 +38,7 @@
 %
 % and set <dim> to something 5cm or larger.
 
-\title{A Comparative Discourse Analysis of Asian Worker \\ in US Historical Newspapers}
+\title{Quantitative Discourse Analysis of Asian Worker \\ in the US Historical Newspapers}
 
 % Author information can be set in various styles:
 % For several authors from the same institution:
@@ -143,10 +143,28 @@ This additional step ensures excluding false positive cases due to mis-recognize
 For instance, the search included the result of ``cooli'' even though it was not identical keyword that we wanted to query.
 In \textit{New York Daily Tribune} published on August 5th, 1862 contained the word ``cooli'' but it accompanied
 many OCR errors making it doubtful whether the word ``cooli'' was actually from the word ``coolie.'' 
-\footnote{\url{https://chroniclingamerica.loc.gov/lccn/sn83030213/1862-08-05/ed-1/seq-4/ocr/}}
+\footnote{\url{https://chroniclingamerica.loc.gov/lccn/sn83030213/1862-08-05/ed-1/seq-4/ocr/} was searched as a page that contains ``coolie''
+but it was due to the OCR error.}
 In order to reduce this kind of false positive cases, we double-processed the data by finding the exact match
 for the word ``coolie'' in the extracted text.
-This additional step resulted in 118,054 sentences containing the word ``coolie'' for the analysis.
+Instead of finding a sentence that contains the word ``coolie'', we extracted upto ten tokens before the word ``coolie'' appeared
+and upto ten tokens after the word ``coolie'' appeared to create a pseudo-sentence.
+As some digitization of the newspapers were not perfect and thus missed punctuation marks, sentence tokenizer could not
+identify the sentence boundary correctly.
+This additional step of creating pseudo-sentence resulted in 125,253 text data (pseudo-sentence) containing the word ``coolie'' for the analysis.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\columnwidth]{figure/descriptive.pdf}
+  \caption{The count of text data containing the word ``coolie'' by State}
+  \label{fig:descriptive}
+\end{figure}
+
+In figure \ref{fig:descriptive}, we present the count of text data containing the word ``coolie'' by State.
+The count of text data is not evenly distributed across the States due to different digitization process of the newspapers.
+The most text data was from District of Columbia (\textit{n=11,302}) followed by Hawaii (\textit{n=8,613}) and New York (\textit{n=7,671}).
+Puerto Rico (\textit{n=15}), Massachusetts (\textit{n=305}), Rhod Island (\textit{n=418}), and Virgin Islands (\textit{n=656}) 
+had the least text data.
 
 \subsection{Data pre-processing} \label{sec:data_preprocessing}
 We pre-processed the data by removing the punctuation, non-alphabet tokens that might have been mis-recognized
@@ -156,9 +174,9 @@ Before we feed the data into the word embedding model, we ran the FastText model
 to identify possible OCR errors. FastText embedding takes character n-gram as input and outputs the embedding vector. 
 This model was tested effective that it can generate possible OCR error candidates \citep{hajiali_generating_2022}. 
 By training entire sentence that contains the word ``coolie'', we identified 200 most similar words to the word ``coolie''. 
-For instance, ``cooliez'' (0.9428), ``coolieb'' (0.9416), and ``coolieh'' (0.9399) ranked high in the list of similar words to ``coolie''
+For instance, ``coolieize'' (0.8654), ``oroolie'' (0.8630), and ``roolie'' (0.8541) ranked high in the list of similar words to ``coolie''
 according to the FastText embedding model.
-With 200 most similar words, we changed the top 200 words in the corpus into ``coolie'' and trained the Word2vec model
+With 200 most similar words, we changed the top 200 words in the text data into ``coolie'' and trained the Word2vec model
 in section \ref{sec:method_rq1_word_embedding}. 
 
 \subsection{RQ1. Word embedding} \label{sec:method_rq1_word_embedding}
@@ -177,7 +195,7 @@ In answering RQ 2, we grouped the newspapers into two groups: the newspapers fro
 For the then-Confederate States, we included the newspapers from Alabama, Arkansas, Florida, Georgia, Louisiana, Mississippi, 
 North Carolina, South Carolina, Tennessee, Texas, Virginia, and West Virginia. 
 For the group for the rest of the United States, we included the newspapers from the rest of the states.
-We excluded sentences from the newspapers newspapers located in Virgin Islands (\textit{n=610}) and Puerto Rico (\textit{n=14}).
+We excluded sentences from the newspapers newspapers located in Virgin Islands (\textit{n=656}) and Puerto Rico (\textit{n=15}).
 
 We calculated the log-odds ratio with informative Dirichlet prior \cite{monroe2008fightin} 
 by comparing the word frequency in the then-Confederacy newspapers 
@@ -296,6 +314,14 @@ across the highest five States.
   \label{tab:bottom10_similar_words}
   \end{table}
 
+
+  \begin{figure*}[h!]
+    \centering
+    \includegraphics[width=0.65\textwidth]{figure/z-score-token.pdf}
+    \caption{The Z-score of words in the newspapers}
+    \label{fig:zscore}
+  \end{figure*}
+
 However, the most dissimilar States, Massachusetts and Rhode Island, showed the different context of the word ``coolie''
 as presented in table \ref{tab:bottom10_similar_words}. Unlike the highest five States, where the word ``coolie'' was used in the context of
 labor, China, and wage, Massachusetts and Rhode Island created a unique discourse of the word ``coolie.''
@@ -313,12 +339,6 @@ in Arkansas are unique words that are not found in the top 10 similar words in t
 
 \subsection{RQ 2. Statistically over-represented words in the South and the rest of the United States} \label{sec:result_rq2_overrepresented_words}
 
-\begin{figure*}[h!]
-  \centering
-  \includegraphics[width=0.65\textwidth]{figure/z-score-token.pdf}
-  \caption{The Z-score of words in the newspapers}
-  \label{fig:zscore}
-\end{figure*}
 
 
 \subsection{Discussion} \label{sec:discussion}

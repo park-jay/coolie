@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  12 SEP 2023 22:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  12 SEP 2023 22:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -497,18 +497,26 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 12
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 [][][][][]$\T1/zi4/m/n/9 https : / / chroniclingamerica . loc . gov / lccn /
  []
 
+<figure/descriptive.pdf, id=68, 715.61726pt x 426.27946pt>
+File: figure/descriptive.pdf Graphic file (type pdf)
+<use figure/descriptive.pdf>
+Package pdftex.def Info: figure/descriptive.pdf  used on input line 158.
+(pdftex.def)             Requested size: 219.08614pt x 130.50613pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- [2]
-<figure/heatmap-token-200.pdf, id=102, 2505.99861pt x 2660.66629pt>
+
+Underfull \vbox (badness 5022) has occurred while \output is active []
+
+ [2 <./figure/descriptive.pdf>]
+<figure/heatmap-token-200.pdf, id=158, 2505.99861pt x 2660.66629pt>
 File: figure/heatmap-token-200.pdf Graphic file (type pdf)
 <use figure/heatmap-token-200.pdf>
-Package pdftex.def Info: figure/heatmap-token-200.pdf  used on input line 210.
+Package pdftex.def Info: figure/heatmap-token-200.pdf  used on input line 228.
 (pdftex.def)             Requested size: 295.90588pt x 314.15077pt.
 
 
@@ -517,57 +525,51 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 299--312
-[]\T1/ptm/m/n/10.95 (+20) However, the most dis-sim-i-lar States, Mas-
- []
-
 [3]
-Underfull \vbox (badness 3148) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./figure/heatmap-token-200.pdf>]
-<figure/z-score-token.pdf, id=207, 620.73863pt x 398.2466pt>
+<figure/z-score-token.pdf, id=183, 620.73863pt x 398.2466pt>
 File: figure/z-score-token.pdf Graphic file (type pdf)
 <use figure/z-score-token.pdf>
-Package pdftex.def Info: figure/z-score-token.pdf  used on input line 318.
+Package pdftex.def Info: figure/z-score-token.pdf  used on input line 320.
 (pdftex.def)             Requested size: 295.90588pt x 189.84361pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./eacl2023.bbl
+
+Underfull \hbox (badness 1406) in paragraph at lines 325--338
+[]\T1/ptm/m/n/10.95 (+20) However, the most dis-sim-i-lar States, Mas-
+ []
+
+[4 <./figure/heatmap-token-200.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ (./eacl2023.bbl
 Overfull \hbox (0.58234pt too wide) in paragraph at lines 16--19
 \T1/ptm/m/n/10 (-20) 1875.  \T1/ptm/m/it/10 (-20) Journal of Asian and African Studies\T1/ptm/m/n/10 (-20) , 3(3):257--
  []
 
-
+[5 <./figure/z-score-token.pdf>]
 Underfull \hbox (badness 4518) in paragraph at lines 81--84
 \T1/ptm/m/n/10 (+20) 2016.  Is or are: The" united states" in
  []
 
-) [5] [6 <./figure/z-score-token.pdf>] (./eacl2023.aux)
+) [6] (./eacl2023.aux)
 Package rerunfilecheck Info: File `eacl2023.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15280 strings out of 476025
- 246703 string characters out of 5790017
- 1912388 words of memory out of 5000000
- 35138 multiletter control sequences out of 15000+600000
- 569777 words of font info for 286 fonts, out of 8000000 for 9000
+ 15299 strings out of 476025
+ 247018 string characters out of 5790017
+ 1904388 words of memory out of 5000000
+ 35148 multiletter control sequences out of 15000+600000
+ 570293 words of font info for 291 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,15n,90p,1062b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,15n,90p,1062b,615s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on eacl2023.pdf (6 pages, 313737 bytes).
+Output written on eacl2023.pdf (6 pages, 332775 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 189 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 500000)
- 55819 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 386 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 55824 words of extra memory for PDF output out of 61914 (max. 10000000)
 
