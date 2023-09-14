@@ -843,6 +843,11 @@ INPUT ./figure/z-score-token.pdf
 INPUT figure/z-score-token.pdf
 INPUT ./figure/z-score-token.pdf
 INPUT ./figure/z-score-token.pdf
+INPUT ./figure/reprintviz1.pdf
+INPUT ./figure/reprintviz1.pdf
+INPUT figure/reprintviz1.pdf
+INPUT ./figure/reprintviz1.pdf
+INPUT ./figure/reprintviz1.pdf
 INPUT ./eacl2023.bbl
 INPUT eacl2023.bbl
 INPUT ./eacl2023.bbl
