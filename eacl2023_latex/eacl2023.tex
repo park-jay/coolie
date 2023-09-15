@@ -72,7 +72,7 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-\textcolor{red}{Warning: This paper contains examples of hate speech and offensive language.}
+\textcolor{red}{Warning: This paper contains examples of offensive language targetting marginalized population.}
 \\
 This document is a supplement to the general instructions for *ACL authors. It contains instructions for using the \LaTeX{} style file for EACL 2023.
 The document itself conforms to its own specifications, and is, therefore, an example of what your manuscript should look like.
@@ -129,7 +129,7 @@ the U.S. newspapers. We further developed research questions as follows:
 
 \begin{itemize}
   \item RQ 1. How different are the semantic meaning of ``coolie'' in each State? 
-  \item RQ 2. What are the words over-represented in the newspapers between then-Confederate States and the rest?
+  \item RQ 2. What are the words over-represented in the newspapers between then-Confederate States and then-Union States?
   \item RQ 3. From where to where the story about coolie traveled? 
 \end{itemize}
 
@@ -145,7 +145,7 @@ The data is collected from Chronicling America \footnote{\url{https://chroniclin
 where digitized texts through optical character recognition (OCR) are accessible.
 When the word ``coolie'' was queried, API showed 124,511 pages of newspapers containing the word \footnote{The data is collected on September 5th, 2023.}.
 First, we collected the entire pages of the newspapers containing the word ``coolie''.
-Then, we extracted the text from the pages and searched the exact match for the word ``coolie''. 
+Then, we extracted the text from the pages and searched the exact match for the word ``coolie.'' 
 This additional step ensures excluding false positive cases due to mis-recognized words.
 For instance, the search included the result of ``cooli'' even though it was not identical keyword that we wanted to query.
 In \textit{New York Daily Tribune} published on August 5th, 1862 contained the word ``cooli'' but it accompanied
@@ -190,7 +190,7 @@ in section \ref{sec:method_rq1_word_embedding}.
 In order to answer RQ 1, we trained the Word2vec model \cite{mikolov_distributed_2013} to
 use Continuous Bags of Words (CBOW) approach and the skip-gram approach. Both CBOW and 
 skip-gram approach find the word embedding by predicting the target word from the context words.
-We trained the word2vec model with minimum word count of 5 and window size of 5 to generate the word embedding. 
+We trained the Word2vec model with minimum word count of 5 and window size of 5 to generate the word embedding. 
 We then took the average of the word embedding vector of the word ``coolie'' in each state and calculated the cosine similarity.
 
 \subsection{RQ2. Statistically over-represented words} \label{sec:method_rq2_overrepresented_words}
@@ -198,11 +198,14 @@ We then took the average of the word embedding vector of the word ``coolie'' in 
 % Once we identify the States that have semantically different meaning of the word ``coolie'', we then
 % grouped the newspapers into two groups: the States with dissimilar semantics of the word ``coolie'' 
 % and the rest of the United States.
-In answering RQ 2, we grouped the newspapers into two groups: the newspapers from the then-Confederate States and the newspapers from the rest of the United States. 
+In answering RQ 2, we grouped the newspapers into two groups: the newspapers from the then-Confederate States and then-Union newspapers. 
 For the then-Confederate States, we included the newspapers from Alabama, Arkansas, Florida, Georgia, Louisiana, Mississippi, 
-North Carolina, South Carolina, Tennessee, Texas, and Virginia
-%, and West Virginia. 
-For the group for the rest of the United States, we included the newspapers from the rest of the states.
+North Carolina, South Carolina, Tennessee, Texas, and Virginia.
+For the then-Union States, Maine, New York, New Hampshire, Vermont, Massachusetts, Connecticut, Rhode Island,
+Pennsylvania, New Jersey, Ohio, Indiana, Illinois, Kansas, Michigan, Minnesota, Wisconsin, Iowa, California, Nevada, Oregon,
+and West Virginia were included.
+% %, and West Virginia. 
+% For the group for the rest of the United States, we included the newspapers from the rest of the states.
 We excluded sentences from the newspapers newspapers located in Virgin Islands (\textit{n=656}) and Puerto Rico (\textit{n=15}).
 
 We calculated the log-odds ratio with informative Dirichlet prior \cite{monroe2008fightin} 
@@ -296,7 +299,7 @@ In table \ref{tab:top10_similar_words}, we can observe that the word ``coolie'' 
 The word related to labor (``labor'' and ``work'') appeared in the semantically close words in Illinois, Wisconsin, Virginia, and Nevada.
 ``chinese'' was the most similar word of identification of coolie's ethnicity (Illinois, Wisconsin, Virginia, and Nevada) while
 ``japanese'' appeared in Wisconsin as well. 
-The word related to wage (``wage'', ``pay'') appeared in the high closest word to ``coolie.''
+The word related to wage (``wage'' and ``pay'') appeared in the high closest word to ``coolie.''
 
 Among the highest five States, there are many common words across the States that might have created an embedding for the word ``coolie''
 not so much different from other States. Words like ``make'', ``say'', ``man'', and/or numbers like ``one'' and ``two'' are common words
@@ -349,7 +352,34 @@ in Arkansas are unique words that are not found in the top 10 similar words in t
 
 \subsection{RQ 2. Statistically over-represented words in the South and the rest of the United States} \label{sec:result_rq2_overrepresented_words}
 
+We present the result of the log-odds ratio with informative Dirichlet prior in figure \ref{fig:zscore}.
+The words that are over-represented in the then-Confederate States are located in the area of below 0 while 
+the words that are over-represented in the then-Union States are located in the area of above 0. X-axis represents
+the frequency ratio of the word in both then-Confederate and then-Union States. Y-axis represents the Z-score of the word.
+The most frequent word ``chinese'' have 1.0681 Z-score meaning that the word ``chinese'' is used relatively
+more frequently in the then-Union States newspapers than the then-Confederate States newspapers.
+For ``labor'', it was over-represented in the then-Union States newspapers with 5.7346 Z-score while
+semantically similar word ``work'' was a little skewed to the then-Union States newspapers with -0.5145 Z-score. 
+On the contrary, ``worker'' and ``workman'' are over-represented in the then-Union States newspapers with
+1.7586 and 1.1122 Z-score, respectively.
+The word concerning compensation for indentured labor, such as the word ``wage'' (Z-score=4.3827), \
+``cheap'' (Z-score=1.2223), and ``pay'' (Z-score=0.5588) are over-represented in the then-Union States newspapers.
+The word about coolie trade (``trade'' and ``ship'') are over-represented in the then-Confederate States newspapers with
+Z-score of -8.0541 and -4.1275 respectively.
+The word related to the race whose labor was exploited under the slavery institution, such as 
+``slave'' (Z-score=-3.704), ``negro'' (Z-score=-4.1616), ``nigger'' (Z-score=-4.8824), and ``african'' (Z-score=-6.4188) are largely over-represented 
+in the then-Confederate States newspapers. In addition, the location where the labor force was most wanted from coolies
+were well-captured by log-odds ratio metric. For instance, ``plantation'' (Z-score=-2.023) and 
+``cotton'' (Z-score=-6.4234) are over-represented
+in the then-Confederate newspapers while ``rail'' (Z-score=1.7115) and ``railroad'' (Z-score=2.3166) are over-represented in the then-Union newspapers.
+The finding that the discourse around coolie is associated with slavery-related words in the then-Confederate newspapers 
+supplements historical claim that the indentured Asian laborers were introduced to fill the absence of labor force in the South after abolition
+of free labor of African Americans \cite{van2016coolie}.
 
+\subsection{RQ 3. Reprint network of Coolie stories} \label{sec:result_rq3_reprint}
+
+In this section, we present the network of coolie story reprints in figure \ref{fig:reprint}. 
+We represented the Capital city of each State instead of connecting the cities where the newspapers were printed.
 
 
 \begin{figure}[h!]
@@ -359,7 +389,7 @@ in Arkansas are unique words that are not found in the top 10 similar words in t
   \label{fig:reprint}
 \end{figure}
 
-\subsection{Discussion} \label{sec:discussion}
+\section{Discussion} \label{sec:discussion}
 
 
 \section{Limitations and Future Work} \label{sec:limitations}

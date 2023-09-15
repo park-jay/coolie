@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex eacl2023"] 1694812003 "eacl2023.aux" "eacl2023.bbl" "eacl2023" 1694812004 0
+["bibtex eacl2023"] 1694816055 "eacl2023.aux" "eacl2023.bbl" "eacl2023" 1694816056 0
   "./acl_natbib.bst" 1694283433 47709 d9d0ab22329e3318a3d1b2ae6abaab62 ""
   "./anthology.bib" 1694283433 97 d4c3b066b549574677d13e524534d2d4 ""
   "./custom.bib" 1694466737 21512 d3626f3b67ec269a62cf55b02c9dc228 ""
-  "eacl2023.aux" 1694812004 9978 9687641103d58333b37ad59cee1b9130 "pdflatex"
+  "eacl2023.aux" 1694816056 10877 8bfcb3c2a7cdb67c86d949a1832b5db6 "pdflatex"
   (generated)
   "eacl2023.bbl"
   "eacl2023.blg"
   (rewritten before read)
-["pdflatex"] 1694812003 "/Users/mstudio/repository/research/coolie/eacl2023_latex/eacl2023.tex" "eacl2023.pdf" "eacl2023" 1694812004 0
-  "/Users/mstudio/repository/research/coolie/eacl2023_latex/eacl2023.tex" 1694812002 29981 31d4d0adf62cb2f9980b4eb3ab234d62 ""
+["pdflatex"] 1694816055 "/Users/mstudio/repository/research/coolie/eacl2023_latex/eacl2023.tex" "eacl2023.pdf" "eacl2023" 1694816056 0
+  "/Users/mstudio/repository/research/coolie/eacl2023_latex/eacl2023.tex" 1694816054 32936 aaccaa85d94178cb40ff8250eb9b3141 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc" 1558214095 7631 5169ff1acd97ff1c4ab83563c99f96f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -145,14 +145,14 @@
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1686758668 7883455 439a16eca24fd25d569ecb1693e387a5 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "EACL2023.sty" 1694283433 11223 239fabba6f6473eb1f5a52a9459482d1 ""
-  "eacl2023.aux" 1694812004 9978 9687641103d58333b37ad59cee1b9130 "pdflatex"
-  "eacl2023.bbl" 1694812003 6054 c35bd5f6d478941513d066bd71cae969 "bibtex eacl2023"
-  "eacl2023.out" 1694812003 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "eacl2023.tex" 1694812002 29981 31d4d0adf62cb2f9980b4eb3ab234d62 ""
+  "eacl2023.aux" 1694816056 10877 8bfcb3c2a7cdb67c86d949a1832b5db6 "pdflatex"
+  "eacl2023.bbl" 1694816055 6054 c35bd5f6d478941513d066bd71cae969 "bibtex eacl2023"
+  "eacl2023.out" 1694816056 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "eacl2023.tex" 1694816054 32936 aaccaa85d94178cb40ff8250eb9b3141 ""
   "figure/descriptive.pdf" 1694809863 20734 d5735a2c20e05ed1134c682206081827 ""
   "figure/heatmap-token-200.pdf" 1694543371 106131 36fb613684fa6a3cd73f56a8c978d740 ""
   "figure/reprintviz1.pdf" 1694657567 207638 b945a4b6fc1153c45b379f54cfb6a937 ""
-  "figure/z-score-token-union-confederate.pdf" 1694811491 55883 274eabc8ecb6b6c1da1c35295537fb70 ""
+  "figure/z-score-token-union-confederate.pdf" 1694814871 56184 bd74d94a633c885a0720cd277bf22548 ""
   (generated)
   "eacl2023.aux"
   "eacl2023.log"
