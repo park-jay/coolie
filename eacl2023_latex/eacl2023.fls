@@ -840,11 +840,11 @@ INPUT ./figure/heatmap-token-200.pdf
 INPUT figure/heatmap-token-200.pdf
 INPUT ./figure/heatmap-token-200.pdf
 INPUT ./figure/heatmap-token-200.pdf
-INPUT ./figure/z-score-token.pdf
-INPUT ./figure/z-score-token.pdf
-INPUT figure/z-score-token.pdf
-INPUT ./figure/z-score-token.pdf
-INPUT ./figure/z-score-token.pdf
+INPUT ./figure/z-score-token-union-confederate.pdf
+INPUT ./figure/z-score-token-union-confederate.pdf
+INPUT figure/z-score-token-union-confederate.pdf
+INPUT ./figure/z-score-token-union-confederate.pdf
+INPUT ./figure/z-score-token-union-confederate.pdf
 INPUT ./figure/reprintviz1.pdf
 INPUT ./figure/reprintviz1.pdf
 INPUT figure/reprintviz1.pdf
