@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{22}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Bojanowski et~al.(2017)Bojanowski, Grave, Joulin, and Mikolov}]{bojanowski_enriching_2017}
@@ -6,6 +6,11 @@ Piotr Bojanowski, Edouard Grave, Armand Joulin, and Tomas Mikolov. 2017.
 \newblock Enriching word vectors with subword information.
 \newblock \emph{Transactions of the association for computational linguistics}, 5:135--146.
 \newblock Publisher: MIT Press.
+
+\bibitem[{Cordell and Mullen(2017)}]{cordell2017fugitive}
+Ryan Cordell and Abby Mullen. 2017.
+\newblock " fugitive verses'': The circulation of poems in nineteenth-century american newspapers.
+\newblock \emph{American Periodicals}, pages 29--52.
 
 \bibitem[{Dobreski et~al.(2019)Dobreski, Park, Leathers, and Qin}]{dobreski2019remodeling}
 Brian Dobreski, Jaihyun Park, Alicia Leathers, and Jian Qin. 2019.
@@ -81,6 +86,16 @@ Edward~JM Rhoads. 2002.
 Bryan Santin, Daniel Murphy, and Matthew Wilkens. 2016.
 \newblock Is or are: The" united states" in nineteenth-century print culture.
 \newblock \emph{American Quarterly}, 68(1):101--124.
+
+\bibitem[{Saram{\"a}ki et~al.(2007)Saram{\"a}ki, Kivel{\"a}, Onnela, Kaski, and Kertesz}]{saramaki2007generalizations}
+Jari Saram{\"a}ki, Mikko Kivel{\"a}, Jukka-Pekka Onnela, Kimmo Kaski, and Janos Kertesz. 2007.
+\newblock Generalizations of the clustering coefficient to weighted complex networks.
+\newblock \emph{Physical Review E}, 75(2):027105.
+
+\bibitem[{Smith et~al.(2014)Smith, Cordel, Dillon, Stramp, and Wilkerson}]{smith2014detecting}
+David~A Smith, Ryan Cordel, Elizabeth~Maddock Dillon, Nick Stramp, and John Wilkerson. 2014.
+\newblock Detecting and modeling local text reuse.
+\newblock In \emph{IEEE/ACM Joint Conference on Digital Libraries}, pages 183--192. IEEE.
 
 \bibitem[{Smith et~al.(2013)Smith, Cordell, and Dillon}]{smith2013infectious}
 David~A Smith, Ryan Cordell, and Elizabeth~Maddock Dillon. 2013.

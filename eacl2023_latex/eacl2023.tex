@@ -234,6 +234,36 @@ in the corpora.
 
 \subsection{RQ 3. Text reprint detection}
 
+Nineteenth-century American newspapers reprinted texts 
+from a wide range of genres: news reports, recipes, trivia, lists, vignettes, 
+and religious reflections \citep{cordell2017fugitive}. 
+Text reprints could also include boilerplate that appeared across many issues of the same paper, 
+such as advertisements. 
+A business might buy ad space for multiple weeks, months, or even years, 
+and those ads would be left 
+in standing type from issue to issue. In a study such as this one, focused on textual reuse,
+an ad that includes a keyword of interest 
+but which appears day after day can disproportionately influence the statistical 
+relationship between words in the corpus, 
+leading our model to overestimate the importance of words within the ad relative
+to the words in texts that changed each day. 
+In other words, if one particular phrase repeatedly appears, then the 
+embedding model will overfit the phrase because of 
+the distorted distribution of the text. However, it is hard to detect reprints based on keyword searches because of OCR errors. 
+Here we adopt the Viral Texts project's text-reuse detection methods, as described in \citet{smith2014detecting} , which use n-gram document representations 
+to detect text reprints 
+within errorful OCR-derived text. We processed our corpus with a 5-gram chunking 
+using NLTK whitespace tokenizer and further made a judgment 
+that the text has been reprinted when there were more than 
+three matches of 5-grams across the snippets. 
+With this method, the negative impact of the OCR errors can be reduced.
+For instance, this pair: [``demolish'', ``part'', ``build'', ``injure'', ``two'', ``coolie'', ``police'', ``investigation'', 
+``latter'', ``case'', ``lead''] and [``demolish'', ``part'', ``build'', ``jure'', ``two'', ``latter'' 
+``case'', ``lead''] are not identical because of inconsistent OCR like ``injure'' and ``jure''.
+However, the 5-gram matching examination substantiated that this pair denotes a reprinted text. 
+Due to the effectiveness of the method by \citet{smith2014detecting}, 
+we used the method to answer RQ 3.
+
 \section{Results} \label{sec:results}
 
 \begin{figure*}[h!]
@@ -376,11 +406,7 @@ The finding that the discourse around coolie is associated with slavery-related 
 supplements historical claim that the indentured Asian laborers were introduced to fill the absence of labor force in the South after abolition
 of free labor of African Americans \cite{van2016coolie}.
 
-\subsection{RQ 3. Reprint network of Coolie stories} \label{sec:result_rq3_reprint}
-
-In this section, we present the network of coolie story reprints in figure \ref{fig:reprint}. 
-We represented the Capital city of each State instead of connecting the cities where the newspapers were printed.
-
+\subsection{RQ 3. Reprint network of coolie stories} \label{sec:result_rq3_reprint}
 
 \begin{figure}[h!]
   \centering
@@ -389,7 +415,46 @@ We represented the Capital city of each State instead of connecting the cities w
   \label{fig:reprint}
 \end{figure}
 
-\section{Discussion} \label{sec:discussion}
+In this section, we present the network of coolie story reprints in figure \ref{fig:reprint}. 
+We represented the Capital city of each State instead of connecting the cities where the newspapers were printed.
+The network of text reprint about coolie stories shows 
+high average clustering coefficient (0.9905) \cite{saramaki2007generalizations} due to 
+the presence of reprints spread to multiple States.
+We found the most reprinted text is from the Democratic party
+at National Convention. The political message contained the 
+word ``coolie.'' We found 97 reprints of the text from declaration
+speech from \textit{The Opelousas courier} published in July 8th, 1876.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\columnwidth]{figure/excerpt1.png}
+  \caption{The text containing ``coolie'' in \textit{The Opelousas courier} published in July 8th, 1876}
+  \label{fig:excerpt1}
+\end{figure}
+
+The excerpt of the message from the Democratic party is presented in figure \ref{fig:excerpt1}.
+This statement also implies that Asians (represented as Mongolian with derogatory term) are
+inferior to ``liberty-loving'' Germans who could have spread the idea of freedom and solidified
+the spirit of liberty in the United States that coolies could not bring. 
+Another comparison can be made with treating Asian workers as a commodity instead of
+human beings by calling ``Coolie trade'' and ``importation.''
+In addition, this statement delineates the role of coolie men and women by 
+viewing the immigration of coolie women is based on immoral purpose and
+coolie men as a economic way of supplement labor force. 
+  
+The next common reprint in the dataset was from the poem that was circulated through 
+78 reprints. The 
+
+
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.65\columnwidth]{figure/excerpt2.png}
+  \caption{The text containing ``coolie'' in \textit{Middletown transcript} published in April 13th, 1918}
+  \label{fig:excerpt2}
+\end{figure}
+
+\section{Conclusion} \label{sec:conclusion}
 
 
 \section{Limitations and Future Work} \label{sec:limitations}
