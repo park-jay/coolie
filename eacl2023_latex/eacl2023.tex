@@ -130,13 +130,15 @@ the U.S. newspapers. We further developed research questions as follows:
 \begin{itemize}
   \item RQ 1. How different are the semantic meaning of ``coolie'' in each State? 
   \item RQ 2. What are the words over-represented in the newspapers between then-Confederate States and then-Union States?
-  \item RQ 3. From where to where the story about coolie traveled? 
+  \item RQ 3. What ``coolie'' stories are reprinted and what are their characteristics?
 \end{itemize}
 
 To support open science and transparent data science, we publish the code used in this study at 
 \url{https://github.com/available-upon-acceptance}.
 
 \section{Related Works} \label{sec:related_works}
+
+
 
 \section{Methodology} \label{sec:methodology}
 
@@ -416,7 +418,8 @@ of free labor of African Americans \cite{van2016coolie}.
 \end{figure}
 
 In this section, we present the network of coolie story reprints in figure \ref{fig:reprint}. 
-We represented the Capital city of each State instead of connecting the cities where the newspapers were printed.
+We represented the Capital city of each State instead of connecting the cities where the newspaper company was located 
+for the sake of brevity of visualization.
 The network of text reprint about coolie stories shows 
 high average clustering coefficient (0.9905) \cite{saramaki2007generalizations} due to 
 the presence of reprints spread to multiple States.
@@ -436,39 +439,68 @@ The excerpt of the message from the Democratic party is presented in figure \ref
 This statement also implies that Asians (represented as Mongolian with derogatory term) are
 inferior to ``liberty-loving'' Germans who could have spread the idea of freedom and solidified
 the spirit of liberty in the United States that coolies could not bring. 
-Another comparison can be made with treating Asian workers as a commodity instead of
-human beings by calling ``Coolie trade'' and ``importation.''
+Another comparison can be made with treating Asian workers as commodities instead of
+human beings by calling ``coolie trade'' and ``importation.''
 In addition, this statement delineates the role of coolie men and women by 
 viewing the immigration of coolie women is based on immoral purpose and
 coolie men as a economic way of supplement labor force. 
-  
-The next common reprint in the dataset was from the poem that was circulated through 
-78 reprints. The 
-
 
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.65\columnwidth]{figure/excerpt2.png}
+  \includegraphics[width=0.70\columnwidth]{figure/excerpt2.png}
   \caption{The text containing ``coolie'' in \textit{Middletown transcript} published in April 13th, 1918}
   \label{fig:excerpt2}
 \end{figure}
 
-\section{Conclusion} \label{sec:conclusion}
+The next common reprint in the dataset was from the poem that was circulated through 
+78 reprints. The poem is presented in figure \ref{fig:excerpt2} and it was
+appeared in \textit{Middletown transcript} published in April 13th, 1918.
+This poem borrows marginalized population such as ``coolie,'' ``negroes,'' ``colored man,''
+and ``jews'' even though they are not necessarily critical components that
+make rhymes work. 
+\textbf{Any examples that used marginalized people in the poem?}
 
+\section{Conclusion} \label{sec:conclusion}
+In this study, we present a quantitative discourse analysis on ``coolie,'' 
+a derogatory term referencing to Asian workers
+which has been understudied in digital humanities field.
+We used word embedding to compare the meaning of ``coolie'' in each State
+and found that Massachusetts, Rhode Island, Wyoming, Oklahoma, and Arkansas
+showed the most dissimilar meaning of the word ``coolie'' while Illinois, California, Wisconsin, Virginia, and Nevada
+showed the most similar meaning of the word ``coolie'' compared to the rest of the States. 
+We found the reason for the dissimilar meaning of the word ``coolie'' in Massachusetts and Rhode Island
+could be in part due to the unique discourse created by uncommon words. 
+With log-odds ratio calculation, we found that the discourse of coolie in the then-Confederate newspapers
+was accompanied by the words related to African American slavery as well as where the 
+work force is the most needed (e.g., ``cotton'' and ``plantation''). This finding supplements
+historical argument that Asian workers were introduced to the United States to replace African American labor.
+With text reuse detection, we found discriminating expression toward Asian workers 
+in political statement and poems that could show stereotype of Asian workers in the United States history. 
 
 \section{Limitations and Future Work} \label{sec:limitations}
-
-% \section{Future Work} \label{sec:future_work}
-
+In addition to data-inherited limitation, OCR errors, 
+digital archives are far from objective and neutral reflection of the past. 
+Digitization of cultural and historical materials is influenced by power politics 
+and it requires a caution in interpreting the results \cite{zaagsma2023digital} as the result might be grounded
+in skewed number of available data. 
+For instance, Chronicling America has been criticized for
+imbalanced number of available data, presenting dominant viewpoints of White compared 
+to small number of digitized Black press \cite{fagan2016chronicling}. 
+Massachusetts and Rhode Island, the States that showed the most dissimilar meaning of the word ``coolie''
+in our study, are the States that have relatively few number of newspapers containing the word ``coolie.''
+As number of available digitized data does not reflect the actual number of newspapers published in the past,
+we need to be cautious in interpreting the results.
+In future work, we will explore more subtle unit of analysis such as geographical location after 
+the civil war to include the rise of the West and how introduction of Chinese Exclusion Act of 1882
+changed the meaning of coolie. 
 
 % Entries for the entire Anthology, followed by custom entries
 \bibliography{anthology,custom}
 \bibliographystyle{acl_natbib}
 
-\appendix
+% \appendix
 
-\section{Example Appendix}
-\label{sec:appendix}
+% \section{Example Appendix} \label{sec:appendix}
 
 \end{document}

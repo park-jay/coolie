@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{24}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Bojanowski et~al.(2017)Bojanowski, Grave, Joulin, and Mikolov}]{bojanowski_enriching_2017}
@@ -16,6 +16,11 @@ Ryan Cordell and Abby Mullen. 2017.
 Brian Dobreski, Jaihyun Park, Alicia Leathers, and Jian Qin. 2019.
 \newblock Remodeling archival metadata descriptions for linked archives.
 \newblock In \emph{International Conference on Dublin Core and Metadata Applications}, pages 1--11.
+
+\bibitem[{Fagan(2016)}]{fagan2016chronicling}
+Benjamin Fagan. 2016.
+\newblock Chronicling white america.
+\newblock \emph{American Periodicals: A Journal of History \& Criticism}, 26(1):10--13.
 
 \bibitem[{Farley(1968)}]{farley1968chinese}
 M~Foster Farley. 1968.
@@ -111,5 +116,10 @@ Sandeep Soni, Lauren~F Klein, and Jacob Eisenstein. 2021.
 Matthias Van~Rossum. 2016.
 \newblock Coolie transformations--uncovering the changing meaning and labour relations of coolie labour in the dutch empire (18th and 19th century).
 \newblock \emph{Oliver Tappe, Michael Zeuske (eds.) Bonded Labour}, pages 83--103.
+
+\bibitem[{Zaagsma(2023)}]{zaagsma2023digital}
+Gerben Zaagsma. 2023.
+\newblock Digital history and the politics of digitization.
+\newblock \emph{Digital Scholarship in the Humanities}, 38(2):830--851.
 
 \end{thebibliography}
