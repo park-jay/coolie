@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex eacl2023"] 1695413583 "eacl2023.aux" "eacl2023.bbl" "eacl2023" 1695413584 0
+["bibtex eacl2023"] 1695414863 "eacl2023.aux" "eacl2023.bbl" "eacl2023" 1695414864 0
   "./acl_natbib.bst" 1694283433 47709 d9d0ab22329e3318a3d1b2ae6abaab62 ""
   "./anthology.bib" 1694283433 97 d4c3b066b549574677d13e524534d2d4 ""
-  "./custom.bib" 1695089804 23907 4869c76132f43b6be023e6a610a290a6 ""
-  "eacl2023.aux" 1695413584 14762 8824fe22854be52b3d951ab7554b7bfd "pdflatex"
+  "./custom.bib" 1695414426 24028 7011c655ec2d2cafd95d7fdc6e920053 ""
+  "eacl2023.aux" 1695414864 15021 e325c4357384136276666a726096c365 "pdflatex"
   (generated)
   "eacl2023.bbl"
   "eacl2023.blg"
   (rewritten before read)
-["pdflatex"] 1695413583 "/Users/mstudio/repository/research/coolie/eacl2023_latex/eacl2023.tex" "eacl2023.pdf" "eacl2023" 1695413584 0
-  "/Users/mstudio/repository/research/coolie/eacl2023_latex/eacl2023.tex" 1695413582 43659 c2d84aa578d7b2b3aa9424cd1dcb4e1b ""
+["pdflatex"] 1695414863 "/Users/mstudio/repository/research/coolie/eacl2023_latex/eacl2023.tex" "eacl2023.pdf" "eacl2023" 1695414864 0
+  "/Users/mstudio/repository/research/coolie/eacl2023_latex/eacl2023.tex" 1695414862 43405 fc0582ca75e1f4a4b6f32997f49ee83a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc" 1558214095 7631 5169ff1acd97ff1c4ab83563c99f96f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -144,10 +144,10 @@
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1686758668 7883455 439a16eca24fd25d569ecb1693e387a5 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "EACL2023.sty" 1694283433 11223 239fabba6f6473eb1f5a52a9459482d1 ""
-  "eacl2023.aux" 1695413584 14762 8824fe22854be52b3d951ab7554b7bfd "pdflatex"
-  "eacl2023.bbl" 1695413583 8342 e3fb1857163745d9b286b8199704d11d "bibtex eacl2023"
-  "eacl2023.out" 1695413584 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "eacl2023.tex" 1695413582 43659 c2d84aa578d7b2b3aa9424cd1dcb4e1b ""
+  "eacl2023.aux" 1695414864 15021 e325c4357384136276666a726096c365 "pdflatex"
+  "eacl2023.bbl" 1695414863 8461 97a5daab2191db8154fe1b630695fde4 "bibtex eacl2023"
+  "eacl2023.out" 1695414864 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "eacl2023.tex" 1695414862 43405 fc0582ca75e1f4a4b6f32997f49ee83a ""
   "figure/descriptive.pdf" 1694809863 20734 d5735a2c20e05ed1134c682206081827 ""
   "figure/excerpt1.png" 1695055606 194183 66757564b8e40d75ea9d31ffb5ad745d ""
   "figure/excerpt2.png" 1695056077 316957 bc4b71205d22ac4c62ead18489014f23 ""

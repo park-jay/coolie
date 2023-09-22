@@ -10,45 +10,45 @@ Database file #1: anthology.bib
 Database file #2: custom.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--there's a number but no volume in kempadoo2017bound
-You've used 28 entries,
+You've used 29 entries,
             3571 wiz_defined-function locations,
-            870 strings with 11248 characters,
-and the built_in function-call counts, 19950 in all, are:
-= -- 1807
-> -- 777
-< -- 25
-+ -- 249
-- -- 213
-* -- 1215
-:= -- 2903
-add.period$ -- 116
-call.type$ -- 28
-change.case$ -- 229
-chr.to.int$ -- 28
-cite$ -- 29
-duplicate$ -- 1369
-empty$ -- 1550
-format.name$ -- 285
-if$ -- 4436
+            875 strings with 11307 characters,
+and the built_in function-call counts, 20407 in all, are:
+= -- 1847
+> -- 789
+< -- 26
++ -- 253
+- -- 216
+* -- 1233
+:= -- 2979
+add.period$ -- 120
+call.type$ -- 29
+change.case$ -- 234
+chr.to.int$ -- 29
+cite$ -- 30
+duplicate$ -- 1399
+empty$ -- 1595
+format.name$ -- 289
+if$ -- 4542
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 271
-newline$ -- 145
-num.names$ -- 112
-pop$ -- 552
+missing$ -- 277
+newline$ -- 150
+num.names$ -- 116
+pop$ -- 566
 preamble$ -- 1
-purify$ -- 183
+purify$ -- 188
 quote$ -- 0
-skip$ -- 1030
+skip$ -- 1061
 stack$ -- 0
-substring$ -- 918
-swap$ -- 701
+substring$ -- 929
+swap$ -- 710
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 249
+type$ -- 255
 warning$ -- 1
-while$ -- 144
+while$ -- 147
 width$ -- 0
-write$ -- 371
+write$ -- 383
 (There was 1 warning)
