@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  22 SEP 2023 15:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  26 SEP 2023 15:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -538,7 +538,7 @@ Underfull \hbox (badness 1082) in paragraph at lines 272--301
  []
 
 [3 <./figure/descriptive.pdf>]
-<figure/heatmap-token-200.pdf, id=199, 2505.99861pt x 2660.66629pt>
+<figure/heatmap-token-200.pdf, id=202, 2505.99861pt x 2660.66629pt>
 File: figure/heatmap-token-200.pdf Graphic file (type pdf)
 <use figure/heatmap-token-200.pdf>
 Package pdftex.def Info: figure/heatmap-token-200.pdf  used on input line 306.
@@ -551,7 +551,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure/z-score-token-union-confederate.pdf, id=218, 600.29549pt x 442.20493pt>
+<figure/z-score-token-union-confederate.pdf, id=220, 600.29549pt x 442.20493pt>
 File: figure/z-score-token-union-confederate.pdf Graphic file (type pdf)
 <use figure/z-score-token-union-confederate.pdf>
 Package pdftex.def Info: figure/z-score-token-union-confederate.pdf  used on input line 398.
@@ -574,7 +574,7 @@ Underfull \vbox (badness 3148) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./figure/z-score-token-union-confederate.pdf>]
-<figure/reprintviz1.pdf, id=353, 527.08919pt x 376.52669pt>
+<figure/reprintviz1.pdf, id=355, 527.08919pt x 376.52669pt>
 File: figure/reprintviz1.pdf Graphic file (type pdf)
 <use figure/reprintviz1.pdf>
 Package pdftex.def Info: figure/reprintviz1.pdf  used on input line 448.
@@ -584,7 +584,7 @@ Overfull \hbox (76.81975pt too wide) in paragraph at lines 448--449
  [][] 
  []
 
-<figure/excerpt1.png, id=357, 566.115pt x 273.02pt>
+<figure/excerpt1.png, id=359, 566.115pt x 273.02pt>
 File: figure/excerpt1.png Graphic file (type png)
 <use figure/excerpt1.png>
 Package pdftex.def Info: figure/excerpt1.png  used on input line 466.
@@ -592,13 +592,13 @@ Package pdftex.def Info: figure/excerpt1.png  used on input line 466.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure/excerpt2.png, id=362, 444.66125pt x 779.91376pt>
+<figure/excerpt2.png, id=366, 444.66125pt x 779.91376pt>
 File: figure/excerpt2.png Graphic file (type png)
 <use figure/excerpt2.png>
-Package pdftex.def Info: figure/excerpt2.png  used on input line 483.
+Package pdftex.def Info: figure/excerpt2.png  used on input line 486.
 (pdftex.def)             Requested size: 153.35962pt x 268.98723pt.
 [7 <./figure/reprintviz1.pdf> <./figure/excerpt1.png> <./figure/excerpt2.png>]
-Overfull \hbox (0.98843pt too wide) in paragraph at lines 534--549
+Overfull \hbox (0.98843pt too wide) in paragraph at lines 537--552
 \T1/ptm/m/n/10.95 (-20) num-ber of news-pa-pers con-tain-ing the word ``coolie.''
  []
 
@@ -617,18 +617,18 @@ Package rerunfilecheck Info: File `eacl2023.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15386 strings out of 476025
- 248781 string characters out of 5790017
+ 15380 strings out of 476025
+ 248729 string characters out of 5790017
  1897388 words of memory out of 5000000
  35194 multiletter control sequences out of 15000+600000
- 568881 words of font info for 304 fonts, out of 8000000 for 9000
+ 568431 words of font info for 300 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,15n,90p,1062b,615s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on eacl2023.pdf (9 pages, 1011587 bytes).
+Output written on eacl2023.pdf (9 pages, 1011799 bytes).
 PDF statistics:
- 616 PDF objects out of 1000 (max. 8388607)
- 415 compressed objects within 5 object streams
+ 620 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
  68 named destinations out of 1000 (max. 500000)
  51231 words of extra memory for PDF output out of 51595 (max. 10000000)
 
