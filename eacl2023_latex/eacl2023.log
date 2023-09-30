@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  26 SEP 2023 15:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  29 SEP 2023 23:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -537,8 +537,11 @@ Underfull \hbox (badness 1082) in paragraph at lines 272--301
 \T1/ptm/m/n/10.95 (+20) reprinted texts from a wide range of gen-res:
  []
 
-[3 <./figure/descriptive.pdf>]
-<figure/heatmap-token-200.pdf, id=202, 2505.99861pt x 2660.66629pt>
+
+Underfull \vbox (badness 3240) has occurred while \output is active []
+
+ [3 <./figure/descriptive.pdf>]
+<figure/heatmap-token-200.pdf, id=201, 2505.99861pt x 2660.66629pt>
 File: figure/heatmap-token-200.pdf Graphic file (type pdf)
 <use figure/heatmap-token-200.pdf>
 Package pdftex.def Info: figure/heatmap-token-200.pdf  used on input line 306.
@@ -551,7 +554,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure/z-score-token-union-confederate.pdf, id=220, 600.29549pt x 442.20493pt>
+<figure/z-score-token-union-confederate.pdf, id=219, 600.29549pt x 442.20493pt>
 File: figure/z-score-token-union-confederate.pdf Graphic file (type pdf)
 <use figure/z-score-token-union-confederate.pdf>
 Package pdftex.def Info: figure/z-score-token-union-confederate.pdf  used on input line 398.
@@ -565,7 +568,7 @@ Underfull \hbox (badness 1406) in paragraph at lines 403--416
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4699) has occurred while \output is active []
 
 
 Underfull \vbox (badness 3148) has occurred while \output is active []
@@ -602,7 +605,10 @@ Overfull \hbox (0.98843pt too wide) in paragraph at lines 537--552
 \T1/ptm/m/n/10.95 (-20) num-ber of news-pa-pers con-tain-ing the word ``coolie.''
  []
 
-(./eacl2023.bbl
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ (./eacl2023.bbl
 Overfull \hbox (0.58234pt too wide) in paragraph at lines 36--39
 \T1/ptm/m/n/10 (-20) 1875.  \T1/ptm/m/it/10 (-20) Journal of Asian and African Studies\T1/ptm/m/n/10 (-20) , 3(3):257--
  []
@@ -617,15 +623,15 @@ Package rerunfilecheck Info: File `eacl2023.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15380 strings out of 476025
- 248729 string characters out of 5790017
+ 15377 strings out of 476025
+ 248699 string characters out of 5790017
  1897388 words of memory out of 5000000
  35194 multiletter control sequences out of 15000+600000
- 568431 words of font info for 300 fonts, out of 8000000 for 9000
+ 568206 words of font info for 298 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,15n,90p,1062b,615s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,15n,90p,1062b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on eacl2023.pdf (9 pages, 1011799 bytes).
+Output written on eacl2023.pdf (9 pages, 1012012 bytes).
 PDF statistics:
  620 PDF objects out of 1000 (max. 8388607)
  419 compressed objects within 5 object streams
