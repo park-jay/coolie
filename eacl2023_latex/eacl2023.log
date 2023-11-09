@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  9 NOV 2023 09:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.14)  9 NOV 2023 09:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -467,22 +467,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 10.95pt on input line 126.
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
-[]\T1/ptm/m/n/10.95 (+20) To sup-port open sci-ence and trans-par-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
-\T1/ptm/m/n/10.95 (+20) ent data sci-ence, we pub-lish the code
- []
-
-
-Underfull \hbox (badness 2781) in paragraph at lines 125--127
-\T1/ptm/m/n/10.95 (+20) used in this study at [][]$\T1/zi4/m/n/10.95 https : / / github . com /
- []
-
-[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}
+ [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}
 
 
 
@@ -517,10 +502,7 @@ Underfull \hbox (badness 1082) in paragraph at lines 266--295
 \T1/ptm/m/n/10.95 (+20) reprinted texts from a wide range of gen-res:
  []
 
-
-Underfull \vbox (badness 3240) has occurred while \output is active []
-
- [3 <./figure/descriptive.pdf>]
+[3 <./figure/descriptive.pdf>]
 <figure/heatmap-token-200.pdf, id=195, 2505.99861pt x 2660.66629pt>
 File: figure/heatmap-token-200.pdf Graphic file (type pdf)
 <use figure/heatmap-token-200.pdf>
@@ -548,7 +530,7 @@ Underfull \hbox (badness 1406) in paragraph at lines 397--410
  []
 
 
-Underfull \vbox (badness 4699) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 3148) has occurred while \output is active []
@@ -557,7 +539,7 @@ Underfull \vbox (badness 3148) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./figure/z-score-token-union-confederate.pdf>]
-<figure/reprintviz1.pdf, id=349, 527.08919pt x 376.52669pt>
+<figure/reprintviz1.pdf, id=348, 527.08919pt x 376.52669pt>
 File: figure/reprintviz1.pdf Graphic file (type pdf)
 <use figure/reprintviz1.pdf>
 Package pdftex.def Info: figure/reprintviz1.pdf  used on input line 442.
@@ -567,7 +549,7 @@ Overfull \hbox (76.81975pt too wide) in paragraph at lines 442--443
  [][] 
  []
 
-<figure/excerpt1.png, id=353, 566.115pt x 273.02pt>
+<figure/excerpt1.png, id=352, 566.115pt x 273.02pt>
 File: figure/excerpt1.png Graphic file (type png)
 <use figure/excerpt1.png>
 Package pdftex.def Info: figure/excerpt1.png  used on input line 460.
@@ -575,7 +557,7 @@ Package pdftex.def Info: figure/excerpt1.png  used on input line 460.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figure/excerpt2.png, id=360, 444.66125pt x 779.91376pt>
+<figure/excerpt2.png, id=359, 444.66125pt x 779.91376pt>
 File: figure/excerpt2.png Graphic file (type png)
 <use figure/excerpt2.png>
 Package pdftex.def Info: figure/excerpt2.png  used on input line 480.
@@ -585,10 +567,7 @@ Overfull \hbox (0.98843pt too wide) in paragraph at lines 531--546
 \T1/ptm/m/n/10.95 (-20) num-ber of news-pa-pers con-tain-ing the word ``coolie.''
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- (./eacl2023.bbl
+(./eacl2023.bbl
 Overfull \hbox (0.58234pt too wide) in paragraph at lines 36--39
 \T1/ptm/m/n/10 (-20) 1875.  \T1/ptm/m/it/10 (-20) Journal of Asian and African Studies\T1/ptm/m/n/10 (-20) , 3(3):257--
  []
@@ -605,16 +584,16 @@ Package rerunfilecheck Info: File `eacl2023.out' has not changed.
 Here is how much of TeX's memory you used:
  15133 strings out of 476025
  244871 string characters out of 5790017
- 1886388 words of memory out of 5000000
+ 1887388 words of memory out of 5000000
  34942 multiletter control sequences out of 15000+600000
  571133 words of font info for 306 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,15n,90p,1062b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,15n,90p,1062b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on eacl2023.pdf (9 pages, 1000153 bytes).
+Output written on eacl2023.pdf (9 pages, 1000028 bytes).
 PDF statistics:
- 610 PDF objects out of 1000 (max. 8388607)
- 411 compressed objects within 5 object streams
+ 609 PDF objects out of 1000 (max. 8388607)
+ 410 compressed objects within 5 object streams
  68 named destinations out of 1000 (max. 500000)
  57887 words of extra memory for PDF output out of 61914 (max. 10000000)
 
