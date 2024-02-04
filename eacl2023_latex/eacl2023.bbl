@@ -1,0 +1,155 @@
+\begin{thebibliography}{30}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Bojanowski et~al.(2017)Bojanowski, Grave, Joulin, and Mikolov}]{bojanowski_enriching_2017}
+Piotr Bojanowski, Edouard Grave, Armand Joulin, and Tomas Mikolov. 2017.
+\newblock Enriching word vectors with subword information.
+\newblock \emph{Transactions of the association for computational linguistics}, 5:135--146.
+\newblock Publisher: MIT Press.
+
+\bibitem[{Breman(2023)}]{breman2023coolie}
+Jan Breman. 2023.
+\newblock Coolie labour and colonial capitalism in asia.
+\newblock \emph{Journal of Agrarian Change}, 23(2):233--246.
+
+\bibitem[{Breman and Daniel(1992)}]{breman1992conclusion}
+Jan Breman and E~Valentine Daniel. 1992.
+\newblock Conclusion: The making of a coolie.
+\newblock \emph{The Journal of Peasant Studies}, 19(3-4):268--295.
+
+\bibitem[{Cordell and Mullen(2017)}]{cordell2017fugitive}
+Ryan Cordell and Abby Mullen. 2017.
+\newblock " fugitive verses'': The circulation of poems in nineteenth-century american newspapers.
+\newblock \emph{American Periodicals}, pages 29--52.
+
+\bibitem[{Dobreski et~al.(2019)Dobreski, Park, Leathers, and Qin}]{dobreski2019remodeling}
+Brian Dobreski, Jaihyun Park, Alicia Leathers, and Jian Qin. 2019.
+\newblock Remodeling archival metadata descriptions for linked archives.
+\newblock In \emph{International Conference on Dublin Core and Metadata Applications}, pages 1--11.
+
+\bibitem[{Fagan(2016)}]{fagan2016chronicling}
+Benjamin Fagan. 2016.
+\newblock Chronicling white america.
+\newblock \emph{American Periodicals: A Journal of History \& Criticism}, 26(1):10--13.
+
+\bibitem[{Farley(1968)}]{farley1968chinese}
+M~Foster Farley. 1968.
+\newblock The chinese coolie trade 1845-1875.
+\newblock \emph{Journal of Asian and African Studies}, 3(3):257--270.
+
+\bibitem[{Franzosi et~al.(2012)Franzosi, De~Fazio, and Vicari}]{franzosi2012ways}
+Roberto Franzosi, Gianluca De~Fazio, and Stefania Vicari. 2012.
+\newblock Ways of measuring agency: an application of quantitative narrative analysis to lynchings in georgia (1875--1930).
+\newblock \emph{Sociological Methodology}, 42(1):1--42.
+
+\bibitem[{Guldi(2019)}]{guldi2019parliament}
+Jo~Guldi. 2019.
+\newblock Parliament's debates about infrastructure: an exercise in using dynamic topic models to synthesize historical change.
+\newblock \emph{Technology and Culture}, 60(1):1--33.
+
+\bibitem[{Hajiali et~al.(2022)Hajiali, Fonseca~Cacho, and Taghva}]{hajiali_generating_2022}
+Mahdi Hajiali, Jorge~Ramón Fonseca~Cacho, and Kazem Taghva. 2022.
+\newblock Generating {Correction} {Candidates} for {OCR} {Errors} using {BERT} {Language} {Model} and {FastText} {SubWord} {Embeddings}.
+\newblock In \emph{Intelligent {Computing}: {Proceedings} of the 2021 {Computing} {Conference}, {Volume} 1}, pages 1045--1053. Springer.
+
+\bibitem[{Jung(2006)}]{jung2006coolies}
+Moon-Ho Jung. 2006.
+\newblock \emph{Coolies and cane: Race, labor, and sugar in the age of emancipation}.
+\newblock JHU Press.
+
+\bibitem[{Kempadoo(2017)}]{kempadoo2017bound}
+Kamala Kempadoo. 2017.
+\newblock ‘bound coolies’ and other indentured workers in the caribbean: Implications for debates about human trafficking and modern slavery.
+\newblock \emph{Anti-Trafficking Review}, (9):48--63.
+
+\bibitem[{Kwak et~al.(2020)Kwak, An, and Ahn}]{kwak2020systematic}
+Haewoon Kwak, Jisun An, and Yong-Yeol Ahn. 2020.
+\newblock A systematic media frame analysis of 1.5 million new york times articles from 2000 to 2017.
+\newblock In \emph{Proceedings of the 12th ACM Conference on Web Science}, pages 305--314.
+
+\bibitem[{Lee(2002)}]{lee2002chinese}
+Erika Lee. 2002.
+\newblock The chinese exclusion example: Race, immigration, and american gatekeeping, 1882-1924.
+\newblock \emph{Journal of American Ethnic History}, 21(3):36--62.
+
+\bibitem[{Lin and Peng(2022)}]{lin2022enhancing}
+King~Ip Lin and Sabrina Peng. 2022.
+\newblock Enhancing digital history--event discovery via topic modeling and change detection.
+\newblock In \emph{Proceedings of the 2nd International Workshop on Natural Language Processing for Digital Humanities}, pages 69--78.
+
+\bibitem[{Mikolov et~al.(2013)Mikolov, Sutskever, Chen, Corrado, and Dean}]{mikolov_distributed_2013}
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg~S. Corrado, and Jeff Dean. 2013.
+\newblock Distributed representations of words and phrases and their compositionality.
+\newblock \emph{Advances in neural information processing systems}, 26:1--9.
+
+\bibitem[{Monroe et~al.(2008)Monroe, Colaresi, and Quinn}]{monroe2008fightin}
+Burt~L Monroe, Michael~P Colaresi, and Kevin~M Quinn. 2008.
+\newblock Fightin'words: Lexical feature selection and evaluation for identifying the content of political conflict.
+\newblock \emph{Political Analysis}, 16(4):372--403.
+
+\bibitem[{Park and Cordell(2023)}]{park2023ripple}
+Jaihyun Park and Ryan Cordell. 2023.
+\newblock The ripple effect of dataset reuse: Contextualising the data lifecycle for machine learning data sets and social impact.
+\newblock \emph{Journal of Information Science}, page 01655515231212977.
+
+\bibitem[{Park and Jeoung(2022)}]{park2022raison}
+Jaihyun Park and Sullam Jeoung. 2022.
+\newblock Raison d’{\^e}tre of the benchmark dataset: A survey of current practices of benchmark dataset sharing platforms.
+\newblock In \emph{Proceedings of NLP Power! The First Workshop on Efficient Benchmarking in NLP}, pages 1--10.
+
+\bibitem[{Parulian et~al.(2022)Parulian, Dubnicek, Worthey, Evans, Walsh, and Downie}]{parulian2022uncovering}
+Nikolaus~Nova Parulian, Ryan Dubnicek, Glen Worthey, Daniel~J Evans, John~A Walsh, and J~Stephen Downie. 2022.
+\newblock Uncovering black fantastic: Piloting a word feature analysis and machine learning approach for genre classification.
+\newblock \emph{Proceedings of the Association for Information Science and Technology}, 59(1):242--250.
+
+\bibitem[{Pedrazzini and McGillivray(2022)}]{pedrazzini2022machines}
+Nilo Pedrazzini and Barbara McGillivray. 2022.
+\newblock Machines in the media: semantic change in the lexicon of mechanization in 19th-century british newspapers.
+\newblock In \emph{Proceedings of the 2nd International Workshop on Natural Language Processing for Digital Humanities}, pages 85--95.
+
+\bibitem[{Rhoads(2002)}]{rhoads2002white}
+Edward~JM Rhoads. 2002.
+\newblock " white labor" vs." coolie labor": The" chinese question" in pennsylvania in the 1870s.
+\newblock \emph{Journal of American Ethnic History}, 21(2):3--32.
+
+\bibitem[{Said(1978)}]{orientalism1978}
+Edward~W. Said. 1978.
+\newblock \emph{Orientalism}.
+\newblock Pantheon Books.
+
+\bibitem[{Santin et~al.(2016)Santin, Murphy, and Wilkens}]{santin2016or}
+Bryan Santin, Daniel Murphy, and Matthew Wilkens. 2016.
+\newblock Is or are: The" united states" in nineteenth-century print culture.
+\newblock \emph{American Quarterly}, 68(1):101--124.
+
+\bibitem[{Saram{\"a}ki et~al.(2007)Saram{\"a}ki, Kivel{\"a}, Onnela, Kaski, and Kertesz}]{saramaki2007generalizations}
+Jari Saram{\"a}ki, Mikko Kivel{\"a}, Jukka-Pekka Onnela, Kimmo Kaski, and Janos Kertesz. 2007.
+\newblock Generalizations of the clustering coefficient to weighted complex networks.
+\newblock \emph{Physical Review E}, 75(2):027105.
+
+\bibitem[{Smith et~al.(2014)Smith, Cordel, Dillon, Stramp, and Wilkerson}]{smith2014detecting}
+David~A Smith, Ryan Cordel, Elizabeth~Maddock Dillon, Nick Stramp, and John Wilkerson. 2014.
+\newblock Detecting and modeling local text reuse.
+\newblock In \emph{IEEE/ACM Joint Conference on Digital Libraries}, pages 183--192. IEEE.
+
+\bibitem[{Smith et~al.(2013)Smith, Cordell, and Dillon}]{smith2013infectious}
+David~A Smith, Ryan Cordell, and Elizabeth~Maddock Dillon. 2013.
+\newblock Infectious texts: Modeling text reuse in nineteenth-century newspapers.
+\newblock In \emph{2013 IEEE International Conference on Big Data}, pages 86--94. IEEE.
+
+\bibitem[{Soni et~al.(2021)Soni, Klein, and Eisenstein}]{soni2021abolitionist}
+Sandeep Soni, Lauren~F Klein, and Jacob Eisenstein. 2021.
+\newblock Abolitionist networks: Modeling language change in nineteenth-century activist newspapers.
+\newblock \emph{Journal of Cultural Analytics}, 6(1).
+
+\bibitem[{Van~Rossum(2016)}]{van2016coolie}
+Matthias Van~Rossum. 2016.
+\newblock Coolie transformations--uncovering the changing meaning and labour relations of coolie labour in the dutch empire (18th and 19th century).
+\newblock \emph{Oliver Tappe, Michael Zeuske (eds.) Bonded Labour}, pages 83--103.
+
+\bibitem[{Zaagsma(2023)}]{zaagsma2023digital}
+Gerben Zaagsma. 2023.
+\newblock Digital history and the politics of digitization.
+\newblock \emph{Digital Scholarship in the Humanities}, 38(2):830--851.
+
+\end{thebibliography}

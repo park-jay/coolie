@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: eacl2023.aux
+The style file: acl_natbib.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: anthology.bib
+Database file #2: custom.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--there's a number but no volume in kempadoo2017bound
+You've used 30 entries,
+            3571 wiz_defined-function locations,
+            885 strings with 11474 characters,
+and the built_in function-call counts, 21191 in all, are:
+= -- 1935
+> -- 805
+< -- 28
++ -- 257
+- -- 219
+* -- 1262
+:= -- 3070
+add.period$ -- 124
+call.type$ -- 30
+change.case$ -- 238
+chr.to.int$ -- 30
+cite$ -- 31
+duplicate$ -- 1463
+empty$ -- 1648
+format.name$ -- 299
+if$ -- 4737
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 283
+newline$ -- 155
+num.names$ -- 120
+pop$ -- 574
+preamble$ -- 1
+purify$ -- 193
+quote$ -- 0
+skip$ -- 1140
+stack$ -- 0
+substring$ -- 967
+swap$ -- 758
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 264
+warning$ -- 1
+while$ -- 150
+width$ -- 0
+write$ -- 396
+(There was 1 warning)
