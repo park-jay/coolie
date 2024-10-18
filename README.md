@@ -11,6 +11,6 @@ This repository contains materials for the [paper](https://arxiv.org/abs/2402.02
   year={2023}
 }
 ```
-== This paper contains examples of offensive language targeting marginalized population. ==
+==This paper contains examples of offensive language targeting marginalized population.==
 
 ## Abstract
