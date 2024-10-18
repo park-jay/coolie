@@ -12,7 +12,7 @@ This repository contains materials for the [paper](https://arxiv.org/abs/2402.02
 }
 ```
 
-<mark style="background-color: lightblue">Marked text</mark>
+<mark style="background-color: red">Marked text</mark>
 ==This paper contains examples of offensive language targeting marginalized population.==
 
 ## Abstract
