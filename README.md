@@ -26,7 +26,8 @@ The digitization of historical texts invites researchers to explore the large-sc
 The code for this research question is available in the [RQ1-word2vec-token.ipynb](https://github.com/park-jay/coolie/blob/main/RQ1-word2vec-token.ipynb)
 
 ## RQ 2: What are the words over-represented in the newspapers between then-Confederate States and then-Union States?
-The code for this research question is available in the [RQ2-log-odds-token.ipynb](https://github.com/park-jay/coolie/blob/main/RQ2-log-odds-token.ipynb)
+The code for this research question is available in the [RQ2-log-odds-token.ipynb](https://github.com/park-jay/coolie/blob/main/RQ2-log-odds-token.ipynb) \
+
 Please note that [RQ2-redo-log-odds-token.ipynb](https://github.com/park-jay/coolie/blob/main/RQ2-redo-log-odds-token.ipynb) has been modified to group the States into slave-States and free-States, not then-Confederate States and then-Union States.
 
 ## RQ 3: What ``coolie`` stories are reprinted and what are their characteristics?
