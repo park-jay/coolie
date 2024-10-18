@@ -5,7 +5,7 @@ This repository contains materials for the [paper](https://arxiv.org/abs/2402.02
 
 <mark style='background-color:red'>
 <span style='color:red'>
-Warning: This paper contains examples of offensive language targeting marginalized population.
+*Warning: This paper contains examples of offensive language targeting marginalized population.*
 </span>
 </mark>
 
