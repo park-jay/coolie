@@ -1,4 +1,4 @@
-# coolie
+# A Quantitative Discourse Analysis of Asian Workers in the US Historical Newspapers
 The digitization of historical texts invites researchers 
 to explore the large-scale corpus of historical texts with computational methods.
 In this study, we present computational text analysis on a relatively understudied topic of
