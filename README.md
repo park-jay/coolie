@@ -2,6 +2,11 @@
 This repository contains materials for the [paper](https://arxiv.org/abs/2402.02572)
 
 ## Citation
+
+<mark style="background-color: red">
+Warning: This paper contains examples of offensive language targeting marginalized population.
+</mark>
+
 ```
 @inproceedings{park2023quantitative,
   title={A Quantitative Discourse Analysis of Asian Workers in the US Historical Newspapers},
@@ -12,8 +17,5 @@ This repository contains materials for the [paper](https://arxiv.org/abs/2402.02
 }
 ```
 
-<mark style="background-color: red">
-==This paper contains examples of offensive language targeting marginalized population.==
-</mark>
 
 ## Abstract
